@@ -1,16 +1,21 @@
 ---
 lab:
-    title: 'Laboratório 7: Crie uma ordem de serviço de manutenção'
-    module: 'Módulo 1: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Laboratório 7: Crie uma ordem de serviço de manutenção'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: ae848333194143720a6f5ebb598d5d566bc2260f
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909372"
 ---
-
-## Laboratório 7 - Crie uma ordem de serviço de manutenção
+## <a name="lab-7---create-a-maintenance-work-order"></a>Laboratório 7 - Crie uma ordem de serviço de manutenção
 
 **Objetivos**
 
 As ordens de manutenção feitas no sistema descrevem a manutenção ou os reparos que são necessários para um ativo e são usadas para atribuir os recursos apropriados para concluir a solicitação de manutenção. A Ordem de serviço é criada com base na ordem de manutenção, que é executada pelo recurso alocado.
 
-**Configuração do laboratório**
+**Configuração do Laboratório**
 
 Tempo estimado: 15 min.
 
@@ -20,31 +25,31 @@ Tempo estimado: 15 min.
 
 2. Se necessário, selecione a empresa e, no menu, selecione **USMF**.
 
-3. No painel de navegação da esquerda, selecione **Módulos** **&gt; Gerenciamento de ativos &gt; Solicitações de manutenção &gt; Estágios do ciclo de vida.**
+3. No painel de navegação à esquerda, selecione **Módulos** **&gt; Gerenciamento de ativos &gt; Configuração &gt; Solicitação de manutenção &gt; Estágios do ciclo de vida.**
 
 4. Selecione InProgress e clique no botão **Editar** no painel de ação.
 
 5. Na guia **Geral**, mude o valor de **Criar ordem de serviço** para Sim.
 
-6. No painel de navegação da esquerda, selecione **Módulos** **&gt; Gerenciamento de ativos &gt; Espaços de trabalho &gt; Gerenciamento de solicitações de manutenção.**
+6. No painel de navegação à esquerda, selecione **Módulos** **&gt; Gerenciamento de ativos &gt; Espaços de trabalho &gt; Gerenciamento de solicitação de manutenção.**
 
 7. Clique em **Criar solicitação de manutenção.**
 
 8. Insira os valores seguintes nos campos da caixa de diálogo e clique no botão **OK**.
 
-	- Tipo de solicitação de manutenção: Corretiva
+    - Tipo de solicitação de manutenção: Corretiva
 
-	- Descrição: Ruído no detector de metais
+    - Descrição: Ruído no detector de metais
 
-	- Local funcional: PP-02-02
+    - Local funcional: PP-02-02
 
-	- Ativo: MD-201
+    - Ativo: MD-201
 
-	- Nível de serviço: 4
+    - Nível de serviço: 4
 
-	- Sintoma de falha: Ruído excessivo
+    - Sintoma de falha: Ruído excessivo
 
-	- Área de falha: Elétrico 
+    - Área de falha: Elétrico 
 
 9. Feche o formulário de **solicitação de manutenção** e volte para o espaço de trabalho do **Gerenciamento de solicitações de manutenção**
 
@@ -65,7 +70,7 @@ Tempo estimado: 15 min.
 
 15. Insira os valores seguintes nos campos da caixa de diálogo e clique no botão **OK**.
 
-	- Tipo de trabalho de manutenção: Inspeção
+    - Tipo de trabalho de manutenção: Inspeção
 
 16. Uma nova ordem de serviço será criada e a ordem de serviço será atualizada no registro de solicitação de manutenção selecionado.
 
@@ -75,9 +80,9 @@ Tempo estimado: 15 min.
 
 19. Insira os valores seguintes nos campos da caixa de diálogo e clique no botão **OK**.
 
-	- Trabalho: Ted Howard
+    - Trabalhador: Ted Howard
 
-20. No menu de Ação, vá para **Ordem de serviço &gt; Estado do ciclo de vida &gt; Atualizar estado da ordem de serviço.**
+20. No menu de Ação, vá para **Ordem de serviço &gt; Esado do ciclo de vida &gt; Atualizar estado da ordem de serviço.**
 
 21. Na caixa de diálogo, marque a caixa de seleção ao lado de InProgress e clique em **OK**
 

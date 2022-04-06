@@ -1,117 +1,122 @@
 ---
 demo:
-    title: 'Demonstração 2: Criar uma fatura'
-    module: 'Módulo 5: Conheça os Princípios básicos do Microsoft Dynamics 365 Project Operations'
+  title: 'Demonstração 2: Criar uma fatura'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
+ms.openlocfilehash: 2c63541757afd9de3bea634353c739ed099d0bc6
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909229"
 ---
+## <a name="demo-2---create-an-invoice"></a>Demonstração 2 — Criar uma fatura
 
-## Demonstração 2 - Criar uma fatura
+1. Navegue até o workspace **Gerenciamento de projetos**.  
+    Nesta demonstração, vamos examinar o processo de faturar um único projeto nas operações de projeto. Embora seja possível executar o faturamento em lote, para fins de demonstração, vamos nos concentrar apenas em um único projeto de material e tempo. Também veremos os resultados de lançamento e as informações financeiras no demonstrativo de projeto. Vamos começar com o faturamento do projeto. 
 
-1. Acesse o espaço de trabalho **Gerenciamento de projetos**.  
-    Nesta demonstração, vamos examinar o processo de faturamento de um único projeto em operações de projeto. Embora seja possível executar faturamento em massa, para fins de demonstração, vamos nos concentrar em apenas um projeto por tempo e material. Também vamos ver os resultados de lançamento e os insights financeiros no demonstrativo de projeto. Vamos começar com o faturamento do projeto. 
+1. No seletor da empresa no canto superior direito, verifique se a pessoa jurídica à qual você está conectado é **USSI**. Se não for, altere-a para **USSI**.  
+    No workspace **Gerenciamento de projetos**, podemos ver todos os projetos ativos. Podemos pesquisar projetos usando o filtro ou, neste exemplo, selecionaremos uma ID de projeto conhecida. 
 
-1. No seletor de empresas na parte superior direita, verifique se a entidade legal a que você está conectado é **USSI**. Caso não seja, altere a entidade legal para **USSI**.  
-    No espaço de trabalho **Gerenciamento de projetos**, podemos ver todos os projetos ativos. Podemos procurar os projetos usando o filtro ou, neste exemplo, vamos selecionar uma ID de projeto conhecida. 
+1. Na tabela **Projetos ativos**, na coluna **ID do projeto**, selecione **00000093 Contoso Consulting**.  
 
-1. Na tabela **Projetos ativos**, na coluna **ID do projeto**, selecione **00000093 Contoso Consulting**.  
+1. Em seguida, abra a página **Propostas de fatura de projetos** para exibir todas as faturas anteriores processadas para a Contoso Consulting. 
 
-1. Em seguida, abra a página **Propostas de fatura do projeto** para visualizar todas as faturas anteriores processadas pela Contoso Consulting. 
+1. No painel de ações, na guia **FATURA**, selecione **Propostas de fatura de projetos**. 
 
-1. No painel de ação, na guia **FATURA**, selecione **Propostas de fatura do projeto**. 
+1. Na página de **Propostas de fatura de projetos**, na barra de navegação, selecione **Novo** e **Proposta de fatura**.  
+    Essa é uma fatura de material e tempo simples, portanto, não precisamos selecionar a opção para proposta de fatura na regra de cobrança. 
 
-1. Na página **Propostas de fatura do projeto**, na barra de navegação, selecione **Nova** e, em seguida, **Proposta de fatura**.  
-    Essa é uma fatura por tempo e material simples, portanto, não precisamos selecionar a opção de Proposta de fatura de regra de cobrança. 
+    ![Uma captura de tela da página de propostas de fatura de projetos com a nova proposta de fatura realçada.](./media/projops_invoice_1_new_invoice_proposal.png)
 
-    ![Captura de tela da página Propostas de fatura do projeto com a nova proposta de fatura em destaque.](./media/projops_invoice_1_new_invoice_proposal.png)
+1. No painel **Criar proposta de fatura**, aponte para as caixas em **Selecionar transações**.  
+    Aqui, podemos selecionar opções como o método de faturamento, a data da fatura, a fonte de financiamento e o projeto. Também podemos optar por incluir subprojetos, assim como incorporar tipos de transação, as datas de início e de término das transações e quaisquer dimensões financeiras de que precisarmos. 
 
-1. No painel **Criar proposta de fatura**, aponte para as caixas em **Selecionar transações**.  
-    Desse ponto, podemos selecionar itens como método de faturamento, data da fatura, fonte de financiamento e projeto. Também podemos optar por incluir subprojetos, como tipos de transações incorporadas, datas de início e término de transações e qualquer dimensão financeira necessária. 
+    ![Uma captura de tela do painel criar proposta de fatura com a seção selecionar transações realçada.](./media/projops_invoice_2_select_transactions.png)
 
-    ![Captura de tela do painel Criar proposta de fatura com a seção Selecionar transações em destaque.](./media/projops_invoice_2_select_transactions.png)
+1. No menu suspenso **Projeto**, selecione **00000093 Contoso Consulting**. 
 
-1. No menu suspenso **Projeto**, selecione **00000093 Contoso Consulting**. 
+1. Para este exemplo, verifique se a **Data da fatura** está definida como **01/02/21**, se a **Data de início** está definida como **01/02/21** e se a data de término é a data de hoje.  
+    Depois que as seleções forem feitas, selecione o botão Pesquisar para localizar as transações que atendem a esses parâmetros.
 
-1. Para este exemplo, verifique se **Data da fatura** está definida como **01/02/21**, a**Data de início** é **01/02/21** e a data de término é a data de hoje.  
-    Depois que as seleções forem feitas, clique no botão Pesquisar para procurar as transações que atendem a esses parâmetros.
+1. Selecione **Pesquisar**.  
+    Em seguida, para faturar todas as transações, selecione a opção Select all. Isso selecionará os itens que escolhemos para despesas e horas.
 
-1. Selecione **Pesquisar**.  
-    Em seguida, para faturar todas as transações, selecione a opção Selecionar tudo. Com isso, os itens que escolhemos para despesas e horas serão selecionados.
+1. Na guia **Transações de projeto**, selecione **Select all**.
 
-1. Na guia **Transações do projeto**, selecione **Selecionar tudo**.
+1. Selecione **OK**. 
 
-1. Selecione **OK**. 
+1. Na página **Proposta de fatura**, aponte para a coluna **Valor da linha da fatura**.  
+    Aqui podemos ver o valor e o resumo da fatura, as transações por hora e as despesas.
 
-1. Na página **Proposta de fatura**, aponte para a coluna **Valor da linha de fatura**.  
-    Aqui, podemos ver o valor e o resumo da fatura, as transações por hora e as despesas.
+    ![Uma captura de tela da página de proposta de fatura com a coluna valor da linha da fatura realçada.](./media/projops_invoice_3_invoice_line_amount_column.png)
 
-    ![Captura de tela da página de diário de fatura com a coluna Valor da linha de fatura em destaque.](./media/projops_invoice_3_invoice_line_amount_column.png)
+1. Aponte para a guia **Hora**. 
 
-1. Aponte para a guia **Hora**. 
+1. Aponte para a guia **Despesas**.  
+    Também é possível alternar e examinar a transação de despesas.  
+Em seguida, vejamos o botão totais para conferir como fica a fatura do ponto de vista do custo e da receita.
 
-1. Aponte para a guia **Despesa**.  
-    Também é possível alternar e examinar a transação de despesa.  
-Em seguida, vamos verificar o botão Totais para saber como ficará a fatura de uma perspectiva de custo e receita.
+1. Na barra de navegação, selecione **Totais**.
 
-1. Na barra de navegação, selecione **Totais**.
+1. Na página **Totais**, aponte para a coluna **CONTABILIDADE**, a coluna **CLIENTE** e a **coluna desconto de linha**.  
+    Na tela totais, podemos ver qual será o impacto na contabilidade, as informações do cliente, como limites de crédito, descontos, impostos sobre vendas e o impacto líquido da fatura. 
 
-1. Na página **Totais**, aponte para a coluna **CONTABILIDADE**, a coluna **CLIENTE** e a coluna **Desconto de linha**.  
-    Na tela de totais, podemos ver o impacto na contabilidade de qualquer informação de cliente, como limites de crédito, qualquer desconto, imposto, e o impacto global da fatura. 
+1. No lado direito da tela, selecione **X** para fechar a página.  
+    Agora estamos prontos para criar uma visualização de impressão para garantir que todas as informações de faturamento sejam precisas. Algumas organizações usam a visualização durante as reuniões de revisão do projeto para garantir que todos concordem com os totais antes que a fatura seja finalizada. 
 
-1. No lado direito da tela, clique no **X** para fechar a página.  
-    Agora, estamos prontos pra criar uma visualização impressa para assegurar que todas as informações de faturamento sejam precisas. Algumas organizações usam a visualização durante as reuniões de análise de projeto para assegurar que todos concordem com os totais antes da finalização da fatura. 
+1. Na página **Proposta de fatura**, na barra de navegação, selecione **Visualização de impressão**. 
 
-1. Na página **Proposta de fatura**, na barra de navegação, selecione **Visualizar impressão**. 
+1. Na caixa de diálogo, selecione **Visualização de impressão**.  
+    Aqui você pode ver um exemplo de visualização de impressão para uma Fatura pro forma. 
 
-1. Na caixa de diálogo, selecione **Visualizar impressão**.  
-    Aqui, é possível ver um exemplo de visualização de impressão para uma fatura Pro forma. 
+1. Selecione **X** para fechar a página.  
+    Quando validarmos todas as informações e estivermos satisfeitos com a Visualização de impressão da fatura, podemos lançar a proposta de fatura.
 
-1. Selecione o **X** para fechar a página.  
-    Após a validação de todas as informações e quando estivermos satisfeitos com a visualização de impressão da fatura, poderemos lançar a proposta de fatura.
+1. Na barra de navegação, selecione **Lançar**.
 
-1. Na barra de navegação, selecione **Lançar**.
+1. Selecione a guia **Parâmetros** .
 
-1. Selecione a guia **Parâmetros**.
+1. Em **PARÂMETRO**, defina **Lançamento** como **Sim**.
 
-1. Em **PARÂMETRO**, defina **Lançamento** como **Sim**.
+1. Em **OPÇÕES DE IMPRESSÃO**, defina **Imprimir fatura** como **Sim**.
 
-1. Em **OPÇÕES DE IMPRESSÃO**, defina **Imprimir fatura** como **Sim**.
+1. Selecione **OK**.
 
-1. Selecione **OK**.
+1. Na página **Fatura**, aponte para o número da **Fatura**.  
+    Agora temos um número de fatura que foi gerado.  
+    Depois que a fatura tiver sido lançada, poderemos revisar as informações no diário de faturas e fazer uma busca detalhada nas transações do razão.
 
-1. Na página **Fatura**, aponte para o número da **Fatura**.  
-    Agora, um número de fatura foi gerado.  
-    Após o lançamento da fatura, poderemos analisar as informações no diário de fatura e fazer uma busca detalhada para as transações de contabilidade.
+1. Navegue até o workspace **Gerenciamento de projetos**.
 
-1. Acesse o espaço de trabalho **Gerenciamento de projetos**.
+1. Na tabela **Projetos ativos**, selecione o projeto **00000093** **Contoso Consulting**.
 
-1. Na tabela **Projetos ativos**, selecione o projeto **00000093** **Contoso consulting**.
+1. No painel de ações, na guia **FATURA**, selecione **Diários de fatura**.
 
-1. No painel de ação, na guia **FATURA**, selecione **Diários de fatura**.
+1. Na página **Diário de faturas**, na barra de ações, selecione **Comprovante**.
 
-1. Na página **Diário de fatura**, na barra de ações, selecione **Comprovante**.
+1. Na página **Transações de comprovante**, aponte para a coluna **Conta contábil**.  
+    Aqui vemos os resultados lançados na contabilidade. As contas contábeis são determinadas pela configuração da conta e pelas dimensões financeiras aplicadas a cada projeto.
 
-1. Na página **Comprovantes de transações**, aponte para a coluna **Conta contábil**.  
-    Os resultados lançados na contabilidade são mostrados aqui. As contas da contabilidade são determinadas pela configuração de conta e as dimensões financeiras são aplicadas a cada projeto.
+1. Navegue até o workspace **Gerenciamento de projetos**. 
 
-1. Acesse o espaço de trabalho **Gerenciamento de projetos**. 
+1. Na tabela **Projetos ativos**, selecione o **projeto 00000093 da Contoso Consulting** .
 
-1. Na tabela **Projetos ativos**, selecione o **00000093 Projeto Contoso Consulting**.
+1. Na página **Contoso Consulting**, na barra de navegação, selecione **Controle**.  
+    Aqui, podemos ver todos os detalhes do projeto.  
+    Em seguida, vamos examinar as finanças do projeto em um demonstrativo de projeto.
 
-1. Na página **Contoso Consulting**, na barra de navegação, selecione **Controle**.  
-    Desse ponto, podemos ver todos os detalhes do projeto.  
-    Em seguida, vamos examinar as finanças do projeto em um demonstrativo.
+1. Selecione **Demonstrativos do projeto**.
 
-1. Selecione **Demonstrativos de projeto**.
+1. Na página **Demonstrativos do projeto**, aponte para a seção **DATA DO PROJETO**.  
+É possível criar um demonstrativo para qualquer intervalo de datas que desejar.
 
-1. Na página **Demonstrativos de projeto**, aponte para a seção **DATA DO PROJETO**.  
-É possível criar um demonstrativo para qualquer intervalo de datas desejado.
+1. Selecione a caixa de data **De** e digite **01/02/2021**.
+1. 
+1. Selecione a caixa de data **Até** e insira a data de hoje.
 
-1. Marque a caixa **De** e digite **01/02/2021**.
+1. Ao concluir, selecione **Calcular**.
 
-1. Marque a caixa **Até** e digite a data de hoje.
+    ![Uma captura de tela da página de demonstrativos do projeto com a opção calcular realçada.](./media/projops_invoice_4_calculate.png)
 
-1. Ao concluir, selecione **Calcular**.
-
-    ![Captura de tela da página de demonstrativos de projeto com a opção Calcular em destaque.](./media/projops_invoice_4_calculate.png)
-
-1. Aponte para **Transações**.  
-    Depois que os dados forem atualizados, um gerente de projetos pode optar por fazer uma busca nos detalhes da transação para tomar decisões de projeto ou fazer ajustes necessários. Nesta demonstração, processamos uma fatura por tempo e material com uma transação por hora e outra por despesa. Vimos isso na visualização, depois lançamos a fatura, analisamos o lançamento no razão e, por fim, revisamos o impacto financeiro por meio deste demonstrativo de projeto.
+1. Aponte para **Transações**.  
+    Depois que os dados são atualizados, um gerente de projeto pode optar por detalhar ainda mais os detalhes transacionais para tomar decisões de projeto ou fazer ajustes conforme necessário. Nesta demonstração, processamos uma fatura de tempo e material com uma transação de hora e de despesa. Analisamos isso em versão prévia, lançamos a fatura, revisamos o lançamento contábil e, por fim, revisamos o impacto financeiro por meio deste demonstrativo do projeto.

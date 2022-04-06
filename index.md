@@ -1,22 +1,27 @@
 ---
-title: Instruções hospedadas online
+title: Instruções online hospedadas
 permalink: index.html
 layout: home
+ms.openlocfilehash: f4e2e1489e1997cfd064aa74eb5345e302bb2424
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909403"
 ---
+# <a name="content-directory"></a>Diretório de conteúdo
 
-# Diretório de conteúdo
+Hiperlinks para cada um dos exercícios de laboratório e demonstrações estão listados abaixo.
 
-Os hiperlinks para cada um dos exercícios de laboratório e demonstrações estão listados abaixo.
-
-## Laboratórios
+## <a name="labs"></a>Laboratórios
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Módulo | Laboratório |
 | --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} — {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## Demonstrações
+## <a name="demos"></a>Demonstrações
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
 | Módulo | Demonstração |

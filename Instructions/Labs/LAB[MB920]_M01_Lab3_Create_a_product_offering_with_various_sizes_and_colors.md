@@ -1,22 +1,27 @@
-﻿---
-lab:
-    title: 'Laboratório 3: Criar uma oferta de produto com vários tamanhos e cores'
-    module: 'Módulo 1: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management'
 ---
+lab:
+  title: 'Laboratório 3: Criar uma oferta de produto com vários tamanhos e cores'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 268432a06fab68b219e68d0748b959aa089045c4
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909352"
+---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Módulo 1: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management
 
-# Módulo 1: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management
+## <a name="lab-3---create-a-new-product"></a>Laboratório 3 – Criar um produto novo
 
-## Laboratório 3 – Criar um produto novo
-
-## Objetivos
+## <a name="objectives"></a>Objetivos
 
 Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para que uma nova configuração de gabinete seja comprada de fornecedores.
 
-## Configuração do laboratório
+## <a name="lab-setup"></a>Configuração do Laboratório
 
    - **Tempo estimado**: 10 minutos
 
-## Instruções
+## <a name="instructions"></a>Instruções
 
 1. Na home page do Finance and Operations, na parte superior direita, verifique se você está trabalhando com a empresa USMF.
 
@@ -24,9 +29,9 @@ Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para q
 
 1. No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**.
 
-1. No painel de navegação, selecione **Módulos** > **Gerenciamento de informações do produto,** e na categoria **Produtos**, selecione **Produtos liberados**.
+1. No painel de navegação, selecione **Módulos** > **Gerenciamento de informações do produto,**  e na categoria **Produtos**, selecione **Produtos liberados**.
 
-1. Na página de Detalhes do produto liberado, no menu superior, selecione **+ Novo**.
+1. Na página de Detalhes do produto liberado, no menu superior, selecione  **+ Novo**.
 
 1. No painel de Novos produtos liberados, no menu **Tipo de produto**, verifique se o **Item** está selecionado.
 
@@ -34,13 +39,13 @@ Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para q
 
 1. Selecione o menu **Grupo de dimensões de rastreamento**, e selecione **Nenhum**.
 
-1. Em **IDENTIFICAÇÃO**, nas caixas **Número do produto** e **Número do item**, digite **GTL007**.
+1. Em **IDENTIFICAÇÃO**, nas caixas **Número do produto** e **Número do item**, digite **GTL007**.
 
-1. Na caixa **Nome do produto**, digite **Gabinete 2**.
+1. Na caixa **Nome do produto**, digite **Gabinete 2**.
 
-1. Em **GRUPOS DE REFERÊNCIA**, selecione o menu **Grupo de modelo do item**, e selecione **PEPS Primeiro a Entrar, Primeiro a Sair**.
+1. Em **GRUPOS DE REFERÊNCIA**, selecione o menu **Grupo de modelo do item** e selecione **PEPS Primeiro a entrar, Primeiro a Sair**.
 
-1. Selecione o menu **Grupo do item** e selecione **TV e Vídeo**.
+1. Selecione o menu **Grupo do item** e selecione **TV e Vídeo**.
 
 1. Selecione o menu **Grupo de dimensões de armazenamento**, e selecione **SiteWH**.
 
@@ -51,7 +56,7 @@ Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para q
     | Unidade de inventário| ea Cada|
     | Unidade de compra| ea Cada|
     | Unidade de vendas| ea Cada|
-    | Unidade de BOM| ea Cada|
+    | Unidade BOM| ea Cada|
 
 1. Em **TRIBUTAÇÃO SOBRE AS VENDAS**, selecione o menu **Grupo de impostos do item** e selecione **TODOS**.
 
@@ -65,7 +70,7 @@ Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para q
 
     ![Imagem de tela mostrando o formulário do novo produto liberado preenchido](./media/lp1-m2-new-release-product.png)
 
-1. Selecione **OK**.
+1. Selecione **OK**.
 
 1. Para garantir que o produto foi finalizado, na barra de faixa de opções, em **Manter**, selecione **Validar**.
 
