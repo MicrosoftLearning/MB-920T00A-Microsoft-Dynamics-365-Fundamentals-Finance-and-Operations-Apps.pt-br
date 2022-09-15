@@ -2,19 +2,14 @@
 demo:
   title: 'Demonstração 1: Cursos de aprendizado online'
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
-ms.openlocfilehash: 06483c659174e77391b0181963299d51f2011d35
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909225"
 ---
+
 ## <a name="demo-1---assigning-learning-courses"></a>Demonstração 1 — Cursos de aprendizado online
 
 1. Navegue até a página inicial de **Recursos humanos do Microsoft Dynamics 365**.  
-    Nos recursos humanos do Microsoft Dynamics 365, os gerentes de pessoal podem atribuir cursos de treinamento aos funcionários. Neste exemplo, a nova contratada da empresa, Alicia, precisa receber o treinamento disponível para os funcionários em seus primeiros trinta dias.
+    In Microsoft Dynamics 365 Human Resources, personnel managers can assign training courses to employees. In this example, the company’s new hire, Alicia, needs to be assigned the training that is available to employees within their first thirty days.
 
-1. No seletor superior direito da empresa, verifique se a empresa à qual você está conectado é **USMF**. Se não for, altere para **USMF**.
+1. In the top-right company picker, verify that the company you are connecting to is <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>. If it’s not, change it to <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
 
 1. No canto superior esquerdo da tela, selecione a guia **Gerenciamento de pessoal**.
 
@@ -22,13 +17,13 @@ ms.locfileid: "137909225"
 
     ![Uma captura de tela da página de gerenciamento de pessoal com o número de funcionários realçado.](./media/assigning_learning_courses_1_employee.png)
 
-1. Na tabela **Funcionários**, selecione o nome do funcionário ao qual atribuir treinamento. Por exemplo, **Alicia Thornber**.  
+1. In the <bpt id="p1">**</bpt>Employees<ept id="p1">**</ept> table, select the name of the employee to assign training to. For example, <bpt id="p1">**</bpt>Alicia Thornber<ept id="p1">**</ept>.  
     Em seguida, use a guia Competências e desenvolvimento para ver links para informações sobre os certificados, a educação e as habilidades de um funcionário.
 
 1. Na página do funcionário, selecione a guia **Competências e desenvolvimento**.
 
 1. Na seção **Competências**, selecione **Cursos**.  
-    Na página de cursos de um funcionário, você pode ver se algum curso foi atribuído. No caso de Alicia, nenhum curso está listado. Para exibir os cursos disponíveis a serem atribuídos, você precisa selecionar o menu ID do curso.
+    From an employee’s Courses page, you can see whether any courses have been assigned. In Alicia’s case, no courses are listed. To view available courses to assign, you need to select the Course ID menu.
 
 1. Selecione o menu **ID do curso**.
 
@@ -44,17 +39,17 @@ ms.locfileid: "137909225"
 1. No menu **Status do curso**, selecione **Aplicar** para ver todos os cursos abertos disponíveis.  
     Agora você pode atribuir o novo curso de treinamento de contratação à Alicia.
 
-1. Selecione o curso que você deseja atribuir. Por exemplo, **00006 Novo treinamento de contratação**.
+1. Nos recursos humanos do Microsoft Dynamics 365, os gerentes de pessoal podem atribuir cursos de treinamento aos funcionários.
 
 1. No painel Transferir dados do curso, selecione **Sim**.
 
 1. Na página **Cursos**, na coluna **Data de início**, selecione o **Ícone de calendário**.
 
-1. No calendário, selecione a data de início. Por exemplo, **5 de janeiro de 2021**.
+1. Neste exemplo, a nova contratada da empresa, Alicia, precisa receber o treinamento disponível para os funcionários em seus primeiros trinta dias.
 
 1. Na coluna **Data de término**, selecione o **ícone de calendário**.
 
-1. No calendário, selecione a data de término do treinamento. Por exemplo, **8 de janeiro de 2021**.
+1. In the calendar, select the end date for the training. For example, <bpt id="p1">**</bpt>January 8th 2021<ept id="p1">**</ept>.
 
 1. No lado esquerdo da página **Cursos**, selecione **Salvar** para salvar as alterações.
 
@@ -67,7 +62,7 @@ ms.locfileid: "137909225"
 
 1. Na coluna **Data de término**, selecione o **ícone de calendário**.
 
-1. Selecione a nova data de início do curso. Por exemplo, **6 de janeiro de 2021**.
+1. No seletor superior direito da empresa, verifique se a empresa à qual você está conectado é **USMF**.
 
 1. Selecione **Salvar**.
 

@@ -2,20 +2,15 @@
 lab:
   title: 'Laboratório 2: Criar uma ordem de compra'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 3fe707e54f1fe2e84b773f92ca75ba0e025e7f4e
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116236"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Módulo 3: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management
 
 ## <a name="lab-2---create-a-purchase-order"></a>Laboratório 2: Criar uma ordem de compra
 
 ## <a name="objectives"></a>Objetivos
 
-É mais comum que ordens de compra sejam criadas automaticamente como resultado de um planejamento mestre, entrega direta e outros processos. Quando criada manualmente, uma ordem de compra geralmente é criada por um agente de compra. Crie uma ordem de compra usando a empresa USMF.
+It's more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes. When created manually, a purchase order is usually created by a purchasing agent. Create a purchase order using the the USMF company.
 
 ## <a name="lab-setup"></a>Configuração do Laboratório
 
@@ -35,25 +30,25 @@ ms.locfileid: "147116236"
 
 1. No painel Criar ordem de compra, selecione o menu **Conta do fornecedor** e selecione **US-101**.
 
-1. Quando um fornecedor é selecionado, os detalhes do registro do fornecedor, como endereço, conta de faturamento, termos de entrega e modo de entrega, serão copiados como valores padrão no cabeçalho do pedido. Esses valores podem ser alterados a qualquer momento.
+1. When you select a vendor, details from the vendor record, such as address, invoice account, delivery terms, and delivery mode, will be copied as default values into the order header. You can change these values at any time.
 
 1. Expanda a seção **Geral**.
 
 1. Em **DIMENSÕES DE ARMAZENAMENTO**, selecione o menu **Local** e examine a lista de locais.
 
-1. O campo Local, junto com o campo Depósito, especifica onde os bens ou serviços adquiridos devem ser entregues. O endereço de entrega padrão é o local. Ambos os campos podem ser preenchidos com os valores configurados para o fornecedor selecionado ou você pode especificá-los manualmente.
+1. The Site field, together with the Warehouse field, specifies where the procured goods or services must be delivered. The default delivery address is the site. Both fields can be populated with values set up for the selected vendor, or you can specify them manually.
 
 1. Em **DATAS**, o campo Data de entrega é usado para especificar quando produtos e serviços adquiridos precisam ser entregues.
 
-1. Você pode especificar uma única data de entrega para o pedido ou as linhas de pedido individuais podem receber datas de entrega exclusivas. Se a data de entrega especificada aqui não puder ser atendida para produtos ou serviços específicos porque eles têm prazos de entrega mais longos, essas linhas serão criadas com uma data de entrega posterior para dar conta disso.
+1. You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates. If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.
 
-1. Expanda a seção **Administração**. A caixa do **Solicitante** pode ser usada para especificar quem está fazendo o pedido.
+1. Expand the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> section. The <bpt id="p1">**</bpt>Orderer<ept id="p1">**</ept> box can be used to specify who is placing the order.
 
-1. Convém compartilhar isso com o fornecedor, caso ele precise entrar em contato com essa pessoa. O valor pode ser atribuído automaticamente se a conta de usuário atual estiver associada a um nome na página Usuários.
+1. É mais comum que ordens de compra sejam criadas automaticamente como resultado de um planejamento mestre, entrega direta e outros processos.
 
 1. Selecione **OK**.
 
-1. O cabeçalho do pedido foi criado. Quando você trabalha com linhas de pedido de compra, apenas um resumo das informações do cabeçalho é mostrado. Se precisar exibir o restante das informações, selecione **Cabeçalho**.
+1. Quando criada manualmente, uma ordem de compra geralmente é criada por um agente de compra.
 
     ![Imagem da tela exibindo o local do menu Cabeçalho](./media/lp1-m3-purchase-order-header-option.png)
 
@@ -63,7 +58,7 @@ ms.locfileid: "147116236"
 
 1. Em **Exibir**, selecione **Dimensões**.
 
-1. Os produtos podem ter modelos que variam por dimensões, cor, tamanho ou estilo. Os produtos também podem ser configurados para usar as dimensões de armazenamento, como o local e o depósito. Também há dimensões de acompanhamento opcionais, como o lote e os números de série. Para melhorar a eficiência da entrada de pedidos, você pode adicionar os campos de dimensão que costuma usar diretamente à grade do pedido.
+1. Crie uma ordem de compra usando a empresa USMF.
 
 1. No painel de exibição Dimensões, em **DIMENSÕES DO PRODUTO**, marque a caixa de seleção **Cor**.
 
@@ -77,7 +72,7 @@ ms.locfileid: "147116236"
 
 1. As linhas de pedido são criadas para produtos e serviços especificando um número de item ou como despesas especificando uma categoria de compras.
 
-1. A categoria de compras é usada para adicionar linhas em que os itens adquiridos são custeados diretamente, em vez de entrar no estoque. Isso significa que se você precisar custear uma compra, isso pode ser feito criando uma linha de ordem de compra que especifica uma categoria de compras, em vez de criar uma linha com um número de item. Os itens também podem ser associados a uma categoria de compras e, nesse caso, a categoria de compras é mostrada apenas como informativa.
+1. Procurement category is used for adding lines where procured items are expensed directly, rather than going into inventory. This means that if you need to expense a purchase, you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number. Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.
 
 1. Selecione o menu **Cor**, examine as opções disponíveis e selecione uma das cores ou combinações de cores.
 
@@ -89,21 +84,21 @@ ms.locfileid: "147116236"
 
 1. Algumas informações adicionais:
 
-    - **Unidade**: indica a unidade de medida para a quantidade pedida. Normalmente, a unidade é fornecida automaticamente na unidade de compra nos dados mestre do produto.
+    - <bpt id="p1">**</bpt>Unit<ept id="p1">**</ept>: Indicates the unit of measure for the ordered quantity. Normally, the unit is automatically provided from the purchasing unit on the product master data.
 
-    - **Preço unitário**: contém um valor oriundo de um contrato de compra ou de um acordo comercial. É possível alterar o preço unitário em linhas de pedido individuais. Por exemplo, se um preço diferenciado for negociado com o fornecedor.
+    - <bpt id="p1">**</bpt>Unit price<ept id="p1">**</ept>: Contains a value from either a purchase agreement or a trade agreement. It is possible to change the unit price on individual order lines—for example, if a unique price is negotiated with the vendor.
 
-    - **Desconto**: representa uma quantia com desconto por unidade. Sendo assim, esse desconto reduz o preço unitário pelo desconto. Esse desconto é normalmente fornecido automaticamente nos contratos de compra ou acordos comerciais, mas é possível substituir em linhas individuais se descontos diferenciados tiverem sido negociados com o fornecedor.
+    - <bpt id="p1">**</bpt>Discount<ept id="p1">**</ept>: Represents a discount amount per unit. This discount therefore reduces the unit price by the discount. This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.
 
-    - **Percentual de desconto**: quando informado, reduz a quantia líquida da linha respectiva. A porcentagem de desconto é geralmente fornecida automaticamente a partir de contratos de compra ou acordos comerciais, mas é possível substituir em linhas individuais se uma porcentagem de desconto diferenciada tiver sido negociada com o fornecedor.
+    - <bpt id="p1">**</bpt>Discount percentage<ept id="p1">**</ept>: When entered, this reduces the net amount for the line accordingly. The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.
 
-    - **Valor líquido**: calculado a partir de outros campos na linha, incluindo a quantidade, o preço unitário, o desconto e a porcentagem de desconto. É possível alterar o Valor líquido, mas os campos Preço unitário, Desconto e Porcentagem de desconto ficarão em branco e, quando você lançar na linha, a quantidade lançada será proporcional ao valor líquido. Em geral, o campo Valor líquido é usado apenas para exibir o valor líquido da linha.
+    - <bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept>: Calculated from other fields on the line, including quantity, unit price, discount, and discount percent. It is possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank, and when you post toward the line, the amount posted will be proportional to the net amount. Generally, the Net Amount field is only used for displaying the net amount of the line.
 
 1. Nas linhas de ordem de compra, na parte inferior da página, selecione **Detalhes da linha**.
 
 1. Selecione a guia **Entrega**.
 
-1. É possível atribuir uma data de entrega exclusiva para cada linha de pedido. A data é herdada do campo no cabeçalho da ordem de compra, mas isso pode ser alterado.
+1. A unique delivery date can be assigned to each order line. The date is inherited from the field on the purchase order header, but you can change this.
 
 1. Feche a página de linha da ordem de compra.
 

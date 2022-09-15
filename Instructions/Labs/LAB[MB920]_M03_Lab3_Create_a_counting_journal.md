@@ -2,22 +2,17 @@
 lab:
   title: 'Laboratório 3: Criar um diário de contagem'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 5e61646d33f284bb7e30b6f63a7db4778f58b47c
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116240"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Módulo 3: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management
 
 ## <a name="lab-3---create-a-counting-journal"></a>Laboratório 3: Criar um diário de contagem
 
-1. Na página inicial do Finance and Operations, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. Se necessário, selecione a empresa e, no menu suspenso, clique em **USMF**.
+1. On the Finance and Operations home page, in the top right, verify you are working with the <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept> company. If necessary, select the company, and from the drop down, select <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
 
 2. No painel de navegação esquerdo, clique em **Módulos** > **Gerenciamento de estoque** > **Entradas do diário** > **Contagem de itens** > **Contagem**.
 
-3. Pressione o botão **+ Novo** no painel de ação. O formulário de diálogo **Criar diário de estoque** será exibido com o botão **OK** na parte inferior. Selecione o botão **OK**.
+3. Select the <bpt id="p1">**</bpt>+New<ept id="p1">**</ept> button in the action pane. The <bpt id="p1">**</bpt>Create inventory journal<ept id="p1">**</ept> dialog form will appear with the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button in the bottom. Select the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.
 
 4. O formulário do diário de contagem de estoque será exibido com cabeçalho e informações detalhadas
 
@@ -29,13 +24,13 @@ ms.locfileid: "147116240"
 
 ![Captura de tela do painel de diálogo Criar diário de contagem de itens disponíveis com os campos definidos conforme descrito.](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Expanda a seção **Registro a incluir** e clique no link de **Filtrar**. No campo **Número do Item**, clique em **A0001** e, em seguida, em **OK**.
+7. Expand the <bpt id="p1">**</bpt>Record to include<ept id="p1">**</ept> section and select the <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> link. In the <bpt id="p1">**</bpt>Item number<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>A0001<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.
 
 8. Na parte inferior do formulário de diálogo **Criar diário de contagem de itens disponíveis**, clique em **OK**.
 
 A quantidade disponível do item A0001 será exibida na seção **Linhas do diário** com informações detalhadas sobre Site, Warehouse, Localização e Placa de Licença.
 
-9. Na coluna **Contagem** da seção **Linha do diário**, insira os números contados em cada Site/Warehouse/Local/Placa de licença. Observe o seguinte:
+9. In the <bpt id="p1">**</bpt>Counted<ept id="p1">**</ept> column of the <bpt id="p2">**</bpt>Journal line<ept id="p2">**</ept> section, enter the numbers counted in each Site/Warehouse/Location/License plate. Note the following:
 
     - Se a quantidade **Disponível** for igual à quantidade da **Contagem**, o campo **Quantidade** ficará em branco.
 

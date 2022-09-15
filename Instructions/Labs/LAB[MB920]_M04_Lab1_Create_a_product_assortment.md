@@ -2,13 +2,8 @@
 lab:
   title: 'Laboratório 1: Criar uma variedade de produto'
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
-ms.openlocfilehash: 7a1764cacfbf92ca50cda3baf9c8f374bf99bacd
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116239"
 ---
+
 ## <a name="lab-1---create-a-product-assortment"></a>Laboratório 1: Criar uma variedade de produtos
 
 ## <a name="objectives"></a>Objetivos
@@ -33,7 +28,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 1. Selecione a caixa **Data efetiva** e, em seguida, selecione uma data no futuro.
 
-1. Na caixa **Nome do sortimento**, insira um nome para o novo sortimento. Por exemplo, **Nova temporada de primavera**.
+1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
 
 1. Defina a **Data de validade** como **Nunca**.
 
@@ -60,7 +55,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 1. Isso adicionará todos os itens filho da categoria pai.
 
-1. Revise a última coluna chamada **Tipo de linha**. Por padrão, todos os itens serão incluídos.
+1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
 
 1. Selecione **+ Adicionar linha**, selecione o menu **Categoria**, expanda **Esportes em equipe**, selecione **Basebol** e, em seguida, **selecione OK**.
 
@@ -68,7 +63,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 1. Usando a linha Categoria de basebol, selecione o menu **Produtos**.
 
-1. Quando os produtos dentro de uma categoria são definidos, você pode selecionar um produto específico para incluir ou excluir. Selecione **AdultBaseballInfield**.
+1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
 
 1. Para remover um produto adicionado, exclua o conteúdo da caixa do produto e pressione a tecla Tab no teclado ou selecione outra área da página.
 

@@ -2,18 +2,13 @@
 lab:
   title: 'Laboratório 2: Integração do Excel'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: 7388809d8222580e4c6ed9cc38c51800d56b1aa0
-ms.sourcegitcommit: 66b904b57adc52ee5c896858be0924d6778642a7
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "147448030"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Módulo 1: Explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
 
 ## <a name="objective"></a>Objetivo
 
-Neste laboratório, você aprenderá a copiar dados de finanças e operações para o Excel usando o aplicativo de suplemento Dynamics Office. Você também aprenderá como o mesmo aplicativo pode ser usado para inserir dados em aplicativos de finanças e operações.
+In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
 
 ## <a name="lab-steps"></a>Etapas do laboratório
 
@@ -27,7 +22,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 4. Selecione **Grupos de fornecedores** (usmf) e baixe o modelo do Excel.
 
-5. Salve e abra o modelo do Excel baixado, forneça a permissão, se necessário, feche a ativação e clique em **Habilitar edição**. Torne o suplemento confiável e faça logon (com as mesmas credenciais, se solicitado).
+5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
 
     Todos os dados existentes da tabela Grupo de fornecedores serão exibidos na planilha do Excel.
 
