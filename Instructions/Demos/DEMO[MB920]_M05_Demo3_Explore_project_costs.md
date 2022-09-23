@@ -1,132 +1,132 @@
 ---
 demo:
-    title: 'Demonstração 3: Explorar os custos do projeto'
-    module: 'Módulo 5: Conheça os Princípios básicos do Microsoft Dynamics 365 Project Operations'
+  title: 'Demonstração 3: Explorar os custos do projeto'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## Demonstração 3 - Explorar os custos do projeto
+## <a name="demo-3---explore-project-costs"></a>Demonstração 3 – Explorar os custos do projeto
 
-Nesta demonstração, veremos com detalhes a criação de uma entrada de tempo e despesa que será cobrada do projeto Contoso Consulting. Vamos explorar as entradas em formatos otimizados para apresentação na web e em dispositivos móveis, e vamos ver como um fluxo de trabalho é usado para gerenciar o processo de aprovação.
+In this demo, we will walk through the creation of a time and expense entry that will be charged to the Contoso Consulting project. We'll explore the entries in formats optimized for web and mobile presentation, and we'll see how a workflow is used to manage the approval process.
 
-1. No **Dynamics 365 para Finance and Operations**, no painel de navegação, selecione **Módulos > Gerenciamento e contabilidade de projeto > Folhas de ponto > Minhas folhas de ponto (otimizadas para dispositivo móvel)**.  
-    Para começar, embora eu não esteja em um dispositivo móvel no momento, será possível reconhecer os formulários como apropriados para dispositivos móveis após a seleção da opção **Minhas folhas de ponto (otimizadas para dispositivo móvel)**.
+1. No **Dynamics 365 for Finance and Operations**, no painel de navegação, selecione **Módulos > Gerenciamento de projetos e contabilidade > Folhas de ponto > Minhas folhas de ponto (otimizadas para dispositivo móvel)** .  
+    Para começar, embora eu não esteja em um dispositivo móvel no momento, você reconhecerá os formulários como amigáveis para dispositivos móveis depois de selecionarmos a opção **Minhas folhas de ponto (otimizadas para dispositivo móvel)** .
 
-    ![Captura de tela do menu Gerenciamento e contabilidade de projeto com a opção Minhas folhas de ponto (otimizadas para dispositivo móvel) em destaque.](./media/projops_costs_1_select_my_timesheets.png)  
+    ![Uma captura de tela do menu gerenciamento de projetos e contabilidade com minhas folhas de ponto (otimizadas para dispositivo móvel) realçado.](./media/projops_costs_1_select_my_timesheets.png)  
 
-    Essa otimização é um diferencial chave para Microsoft Business Applications e ajuda a assegurar que haja uma curva de aprendizado mínima entre o uso na web e em um dispositivo móvel.
+    Essa otimização é um importante diferencial para os aplicativos de negócios da Microsoft e ajuda a garantir que haja uma curva de aprendizado mínima entre a Web e o uso móvel.
 
-1. No seletor de empresas na parte superior direita, verifique se a entidade legal a que você está conectando é **USSI**. Caso não seja, altere a entidade legal para **USSI**.
+1. In the top right company picker, verify the legal entity you are connecting to is <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>.
 
-1. Na página **Minhas folhas de ponto**, selecione **Nova**.  
-    Agora, vamos criar uma nova folha de ponto com base nas configurações definidas.
+1. Na página **Minhas folhas de ponto**, selecione **Novo**.  
+    Agora, vamos criar uma nova folha de ponto que será baseada nas configurações definidas.
 
 1. No painel **Nova folha de ponto**, aponte para a caixa **Data**.  
-    A data especificada determinará o período da folha de ponto.
+    A data inserida determinará o período da folha de ponto.
 
 1. Aponte para **Criar a partir de favoritos**.  
-    Se houver favoritos salvos, você poderá selecionar um deles para usar como base e economizar tempo.
+    Se você tiver favoritos salvos, poderá optar por criar a partir deles para poupar tempo.
 
-1. Ao concluir, selecione **OK**.
+1. Quando concluir, selecione **OK**.
 
-1. Na página **Detalhes das minhas folhas de ponto**, selecione o ícone **Nova +**.
+1. Na página **Detalhes das minhas folhas de ponto**, selecione o ícone **Novo +** .
 
-1. No painel **Nova folha de ponto**, aponte para a caixa **Entidade legal**.  
-    A nova linha da folha de ponto será aberta, com detalhes como cliente, projeto, categoria, propriedades de linha e parâmetros de imposto. Também é possível selecionar outra entidade legal se a entrada de tempo estiver em nome de outra empresa na organização.
+1. No painel **Nova linha da folha de ponto**, aponte para a caixa **Pessoa jurídica**.  
+    The new timesheet line will be opened, with details such as the customer, the project, the category, the line properties, and tax parameters. You can also select a different legal entity if the time entry is on behalf of another company within your organization.
 
 1. Selecione o menu **ID do projeto**.
 
-1. Selecione um dos projetos disponíveis, por exemplo, **Contoso Consulting**.
+1. Selecione um dos projetos disponíveis, como o projeto **Contoso Consulting**.
 
-1. Ao concluir, selecione **OK**.  
-    A tela otimizada para dispositivos móveis para entrada de projeto será aberta e você poderá começar a reservar suas horas a cada dia para o projeto e a categoria, nesse caso **Serviço**.
+1. Quando concluir, selecione **OK**.  
+    A tela otimizada para dispositivos móveis para a entrada de tempo será aberta e você poderá começar a agendar suas horas diárias para o projeto e a categoria, nesse caso, **Serviço**.
 
-1. Na página **Entrada de hora**, na caixa **Seg**, digite **8**.  
-    Isso representa entrada de horas de um único dia.
+1. Na página **Entrada de tempo**, na caixa **Seg**, digite **8**.  
+    Isso representa a entrada das horas de um único dia.
 
-    ![Captura de tela da página Entrada de hora.](./media/projops_costs_2_mon_box.png)
+    ![Uma captura de tela da página de Entrada de tempo.](./media/projops_costs_2_mon_box.png)
 
-1. Na caixa **Comentário interno**, adicione um comentário. Por exemplo: **Talvez queira falar sobre as novas bicicletas**.  
-    Também é possível inserir comentários internos e externos em relação ao projeto para assegurar que todas as partes entendam a natureza de horas registradas.
+1. Nesta demonstração, veremos a criação de uma entrada de tempo e despesa que será cobrada no projeto da Contoso Consulting.  
+    Também é possível inserir comentários internos e externos em relação ao projeto para garantir que todas as partes compreendam a natureza das horas que estão sendo registradas.
 
-1. Na caixa **Comentário externo**, adicione um comentário. Por exemplo: **As correias foram ajustadas e alinhadas aos rodas frontais na frota**.
+1. Vamos explorar as entradas em formatos otimizados para apresentação móvel e na Web, e veremos como um fluxo de trabalho é usado para gerenciar o processo de aprovação.
 
-1. No painel de navegação, selecione **Salvar**.
+1. Na barra de navegação, selecione **Salvar**.
 
-1. No menu de navegação à esquerda, em **Folhas de ponto**, selecione **Minhas folhas de ponto**.
+1. No menu de navegação esquerdo, em **Folhas de ponto**, selecione **Minhas folhas de tempo**.
 
-1. Na página **Minhas folhas de ponto**, selecione a entrada de hora que você criou.
+1. Na página **Minhas folhas de ponto**, selecione a entrada de tempo criada anteriormente.
 
-1. Na guia **Folha de ponto**, aponte para a categoria Coluna.  
-    Agora, vamos supor que voltamos a um computador e estamos analisando nosso tempo de dentro do formulário de folha de ponto na web. Ainda podemos ver as mesmas informações, como categoria e horas.
+1. Na guia **Folha de ponto**, aponte para a coluna Categoria.  
+    Now assume we've returned to a computer and are reviewing our time from within the web timesheet form. We can still see the same information, such as the category and the hours.
 
 1. Em **Detalhes da linha**, aponte para **Comentário interno** e **Comentário externo**.  
-    Também podemos revisar os comentários que inserimos antes. Essas informações estão lá, mas o formato do layout é ligeiramente diferente. Com frequência, esse formato é usado para análise final porque as pessoas podem achar mais fácil revisar e validar seu tempo, especialmente quando alguém é atribuído a vários projetos ou categorias.
+    We can also review the comments we entered earlier. The information is there, but the layout format is just a bit different. This format is often used for final review because it can be easier for people to review and validate their time, especially when someone is assigned to multiple projects or categories.
 
-1. No painel de navegação, selecione a guia **Fluxo de trabalho**.  
-    Quando estivermos satisfeitos com a folha de dados, podermos enviá-la. Cada organização determinará as aprovações necessárias na fase de implementação com base em suas próprias políticas empresariais.
+1. Na barra de navegação, selecione a guia **Fluxo de trabalho**.  
+    If we're satisfied with the timesheet, we can submit it. The approvals required will be determined by each organization during the implementation phase based on their own company policies.
 
-1. No painel **Revisar o fluxo de trabalho da folha de ponto**, selecione **Enviar**.
+1. No painel **Examinar fluxo de trabalho da folha de ponto**, selecione **Enviar**.
 
-1. No painel **Revisar o fluxo de trabalho da folha de ponto – Enviar**, inclua os comentários adicionais desejados.
+1. No painel **Examinar fluxo de trabalho da folha de ponto – Enviar**, adicione outros comentários.
 
 1. Selecione **Enviar**.
 
-1. Acesse a página **Transações de horas**. Se a guia **Transações de horas** estiver esmaecida, acesse a página **Minhas folhas de ponto** e selecione a folha de ponto recém-criada.
+1. Browse to the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> page. If the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> tab is grayed out, browse to the <bpt id="p2">**</bpt>My timesheets page<ept id="p2">**</ept>, and select the previously created timesheet.
 
-1. Examine a página **Transações de horas**.  
-    Após a aprovação, os resultados serão lançados e ficarão visíveis na página Transações de horas. Podemos ver todas as informações relevantes, como entidade legal, projeto, categoria, horas e, nesse caso, até uma visualização dos preços de custo e venda.  
+1. Na página **Transações de horas**, examine a página.  
+    Upon approval, the results will be posted and will be visible in the Hour transactions page. We can see all the relevant information, such as the legal entity, project, category, hours, and in this case, even a view of the cost price and the sales price.  
 
-Em seguida, vamos fazer uma busca detalhada de comprovantes de transações.
+Em seguida, podemos fazer uma busca detalhada das Transações de comprovante.
 
-1. No painel de navegação, selecione **Comprovante**.
+1. Na barra de navegação, selecione **Comprovante**.
 
-1. Na página **Comprovantes de transações**, aponte para as seções **Conta contábil** e **Nome da conta**.  
-    Nessas seções, podemos ver o impacto na contabilidade, bem como as contas que serão usadas.  
+1. Na página **Transações de comprovante**, aponte para as seções **Conta contábil** e **Nome da conta**.  
+    Nessas seções, podemos ver o impacto na contabilidade geral, bem como as contas que serão usadas.  
 
-Agora, vamos criar uma entrada de despesa para o mesmo projeto Contoso Consulting.
+Agora, vamos criar uma entrada de despesa para o mesmo projeto de consultoria da Contoso.
 
 1. No painel de navegação, selecione **Módulos > Gerenciamento de despesas > Minhas despesas > Relatórios de despesas**.
 
-1. Na página **Gerenciamento de despesas**, na guia **Relatórios**, selecione **+ Novo relatório de despesas**.
+1. Na página **Gerenciamento de despesas**, na guia **Relatórios**, selecione **+Novo relatório de despesas**.
 
-1. No painel **Novo relatório de despesas**, na caixa **Finalidade**, digite um título. Por exemplo, **Contoso – Fev2021**.
+1. No seletor superior direito da empresa, verifique se a pessoa jurídica à qual você está conectado é **USSI**.
 
 1. Selecione **OK**.
 
-1. Na página **Despesas**, selecione **+ Nova despesa**.  
-Uma nova linha de despesa é mostrada.
+1. Na página **Despesas**, selecione **+Nova despesa**.  
+Uma nova linha de despesa será exibida.
 
-1. Na coluna **Categoria de despesa**, selecione **Combustível** no menu suspenso **Categoria**.  
-Aqui, vamos inserir a nova despesa com detalhes sobre ela.
+1. Na coluna **Categoria de despesas**, selecione **Combustível** no menu suspenso **Categoria**.  
+Aqui podemos inserir a nova despesa com os respectivos detalhes.
 
-1. Na coluna **Valor da transação**, digite **25,00**.
+1. Na coluna **Valor da transação**, insira **25,00**.
 
 1. Na coluna **Moeda**, selecione **USD**.
 
-1. Na coluna **Data da transação**, selecione uma data. Por exemplo, **01/02/2021**.  
-    Depois que todos os detalhes forem inseridos, salve a despesa.
+1. Se não for, altere-a para **USSI**.  
+    Depois de inserir todos os detalhes, você pode salvar a despesa.
 
 1. Selecione **Salvar**.
 
-1. No menu de navegação à esquerda, em **Espaços de trabalho**, selecione **Gerenciamento de despesas**.
+1. No menu de navegação esquerdo, em **Workspaces**, selecione **Gerenciamento de despesas**.
 
-1. Na página **Gerenciamento de despesas**, selecione o relatório de despesas recém-criado.
+1. Na página **Gerenciamento de despesas**, selecione o relatório de despesas que você acabou de criar.
 
-1. Na página **Relatório de despesas**, marque a caixa **ID do projeto** e depois selecione **00000093 Contoso Consulting**.  
+1. Na página **Relatório de despesas**, selecione a caixa **ID do projeto** e, em seguida, selecione **00000093 Contoso Consulting**.  
 
-Em seguida, podemos indicar se o combustível será cobrado do projeto Contoso Consulting, bem como outras informações sobre a despesa.
+Em seguida, podemos indicar que o combustível será cobrado no projeto Contoso Consulting, bem como informações adicionais sobre a despesa.
 
-1. Aponte para a seção **Informações adicionais**.
+1. Aponte para a caixa **Informações Adicionais**.
 
 1. No lado inferior direito da tela, selecione **Salvar e continuar**.
 
 1. No lado direito da tela, selecione **Enviar**.
 
-1. Na caixa **Comentário**, adicione outros comentários desejados.
+1. Na caixa **Comentário**, adicione comentários extras.
 
 1. Selecione **Enviar**.
 
-1. Na página **Gerenciamento de despesas**, aponte para a coluna **Status da aprovação**.  
-    Nesse momento, o fluxo de políticas de viagem e aprovação de despesas será ativado. Os custos foram lançados e aplicados ao projeto Contoso Consulting e ficarão disponíveis depois para faturamento se puderem ser cobrados.
+1. Na página **Gerenciamento de despesas**, aponte para a coluna **Status de aprovação**.  
+    At this time, travel policies and expense approval flow will be activated. The costs have been posted and applied to the Contoso Consulting project and will be available later for invoicing if chargeable.
 
-Nesta demonstração, processamos uma entrada de tempo e despesa que foi cobrada do projeto Contoso Consulting. Vimos exemplos em formatos para web e dispositivos móveis e conseguimos verificar como os fluxos de trabalho são usados para gerenciar as aprovações necessárias pela organização USS.
+In this demo, we have processed a time and expense entry that was charged to the Contoso Consulting project. We saw samples in web and mobile formats and were able to see how workflows are used to manage the approvals required by the USSI organization.

@@ -1,52 +1,57 @@
 ---
 demo:
-    title: 'Demonstração 1: Fechamento do mês'
-    module: 'Módulo 2: Conheça os princípios básicos do Microsoft Dynamics 365 Finance'
+  title: 'Demonstração 1: Fechamento do mês'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: 64e058508083538795592815e4657ac905000ded
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909215"
 ---
+## <a name="demo-1---month-end-close"></a>Demonstração 1 – Fechamento de fim de mês
 
-## Demonstração 1 - Fechamento do mês
+1. Navegue até a Página inicial **Microsoft 365 for Finance and Operations**.  
+    Para criar um novo período financeiro de fechamento no Microsoft Dynamics 365 for Finance and Operations, como um fechamento de fim de mês, primeiro navegue até o módulo **Contabilidade**.
 
-1. Acesse a home page do **Microsoft 365 para Finance and Operations**.  
-    Para criar um novo fechamento de período financeiro no Microsoft Dynamics 365 para Finance and Operations, como um fechamento do mês, primeiro navegue para o módulo **Contabilidade**.
-
-1. No seletor de empresas na parte superior direita, verifique se a entidade legal a que você está se conectando é **USMF**. Caso não seja, altere a entidade legal para **USMF**.
+1. No seletor superior direito da empresa, verifique se a pessoa jurídica à qual você está conectado é **USMF**. Se não for, altere-a para **USMF**.
 
 1. No painel de navegação, selecione **Módulos**.
 
 1. No submenu **Módulo**, selecione **Contabilidade**.
 
-1. Na seção **Fechamento de período**, selecione **Configuração de fechamento do período financeiro**.  
-    Na página **Agendas de fechamento** do nosso exemplo, você pode observar que já existe uma nova agenda que foi criada para um período de fechamento anterior. Para criar uma nova agenda, selecione **Nova** e forneça mais informações.
+1. Na seção **Fechamento do período**, selecione **Configuração de fechamento do período financeiro**.  
+    Na página **Agendamentos de fechamento** do nosso exemplo, você pode ver que já há um novo agendamento criado para um período de fechamento anterior. Para criar um agendamento, selecione **Novo** e forneça informações adicionais.
 
-1. No menu da página **Agendas de fechamento**, selecione **Nova**.  
+1. No menu da página **Agendamentos de fechamento**, selecione **Novo.**  
     Em seguida, adicione um nome e uma descrição para a agenda de fechamento.
 
-1. Na caixa **Agenda de fechamento**, no menu suspenso **Criar agenda de fechamento**, digite um nome. Por exemplo, **Fev 2021**.
+1. Na caixa **Agendamento de fechamento**, no menu suspenso **Criar agendamento de fechamento**, insira um nome. Por exemplo, **Fev 2021**.
 
-1. Na caixa **Descrição**, digite uma breve descrição. Por exemplo, **Fechamento de período Fev 2021**.  
-    Adicione as datas de início e término do período também.
+1. Na caixa **Descrição**, insira uma breve descrição. Por exemplo, **Período de fechamento Fev de 2021**.  
+    Adicione as datas de início e término para o período também.
 
-1. Na caixa **Data inicial do período**, digite a data de início. Por exemplo, **16/01/2021**.
+1. Na caixa **Data de início do período**, insira a data de início. Por exemplo, **16/01/2021**.
 
-1. Na caixa **Data final do período**, digite a data de término. Por exemplo, **15/02/2021**.  
-    Usando o menu **Modelos**, selecione um dos modelos previamente criados.
+1. Na caixa **Data de término do período**, insira a data de término. Por exemplo, **15/02/2021**.  
+    Usando o menu **Modelos**, selecione modelos criados anteriormente.
 
-1. Marque a caixa **Modelo**.
+1. Selecione a caixa **Modelo**.
 
-1. No menu suspenso **Modelo**, selecione o modelo desejado. Por exemplo, **Fim do mês**.  
-    Use o menu de calendário para escolher um dos calendários disponíveis.
+1. No menu suspenso **Modelo**, selecione o modelo que você gostaria de usar. Por exemplo, **Fim do mês**.  
+    Use o menu de calendário para escolher entre os calendários disponíveis.
 
-1. Marque a caixa **Calendário**.
+1. Selecione a caixa **Calendário.**
 
-1. No menu suspenso **Calendário**, selecione o calendário desejado. Por exemplo, **5 dias**.  
-Em seguida, você precisará selecionar as empresas ou entidades legais que serão associadas a essa agenda. É possível selecionar cada empresa separadamente ou usar a marca de seleção no título da coluna para selecionar todas.
+1. No menu suspenso **Calendário**, selecione o calendário que você gostaria de usar. Por exemplo, **5 dias**.  
+Em seguida, você precisará selecionar as empresas ou pessoas jurídicas que serão associadas a esse agendamento. Você pode selecionar cada empresa individualmente ou usar a marca de seleção no cabeçalho da coluna para selecionar todas elas.
 
-1. Marque a caixa **Empresa**.
+1. Selecione a caixa **Empresa**.
 
-1. Na parte superior esquerda do menu suspenso **Empresa**, selecione a **marca de seleção** para selecionar todas as empresas.
+1. No canto superior esquerdo do menu suspenso **Empresa**, selecione a **marca de seleção** para selecionar todas as empresas.
 
 1. Selecione **Criar**.  
-    Acabamos de criar uma agenda de fechamento de final do mês. Neste exemplo, muitos elementos da agenda já foram criados pelo grupo responsável por administrar o sistema de finanças. O modelo de final do mês, por exemplo, já reflete as diferentes áreas de tarefas.
+    Agora criamos uma agenda de fechamento de fim de mês. Neste exemplo, muitos elementos da agenda já foram criados pelo grupo responsável por administrar o sistema financeiro. O modelo de Término de mês, por exemplo, já reflete as diferentes áreas de tarefa.
 
 1. Na página **Configuração de fechamento do período financeiro**, selecione a guia **Modelos**.
 
@@ -54,16 +59,16 @@ Em seguida, você precisará selecionar as empresas ou entidades legais que ser�
 
 1. Aponte para a coluna **Tarefa** para exibir descrições de tarefas.
 
-1. Aponte para a coluna **Data de vencimento relativa à data final do período (+/- dias)** para exibir datas de vencimento.
+1. Aponte para a coluna **Data de conclusão relativa à data de término do período (+ / - dias)** para exibir as datas de conclusão.
 
 1. Aponte para a coluna **Função de fechamento** para exibir as atribuições de função de fechamento.
 
-1. Aponte para a coluna **Empresa** para exibir as empresas relacionadas.
+1. Aponte para a coluna **Empresa** para exibir empresas relacionadas.
 
-1. No lado esquerdo da página, selecione a guia **Calendários** para ver onde foi criado um calendário de trabalho.
+1. No lado esquerdo da página, selecione a guia **Calendários** para ver onde um calendário de trabalho foi criado.
 
 1. Na guia **Calendários**, selecione **Editar**.  
-    Esse calendário foi configurado de modo que os dias de semana sejam considerado dias úteis, e os dias de fim de semana não.
+    Esse calendário foi definido para que cada dia útil seja considerado um dia de trabalho e cada dia do fim de semana não seja.
 
 1. Selecione **Cancelar**.
 
@@ -72,12 +77,12 @@ Em seguida, você precisará selecionar as empresas ou entidades legais que ser�
 
 1. Selecione a guia **Recursos**.
 
-1. Na página de recursos, você pode visualizar os funcionários individuais e suas funções de fechamento atribuídas.
+1. Na página de recursos, você pode exibir funcionários individuais e suas funções de fechamento atribuídas.
 
 1. Na página **Recursos**, na seção **Funções de fechamento**, aponte para a coluna **Função de fechamento**.
 
-1. No lado esquerdo da página **Recursos**, selecione os nomes dos funcionários para ver suas funções. Por exemplo, **Arnie Mondloch** e **June Low**.  
-    Cada funcionário pode ser atribuído a funções de fechamento. As funções de fechamento são definidas na guia de mesmo nome. Elas não são funções de segurança, mas ajudam a definir os processos de fechamento de uma organização.
+1. No lado esquerdo da página **Recursos**, selecione nomes de funcionários para ver suas funções. Por exemplo, **Arnie Mondloch** e **June Low**.  
+    Cada funcionário pode ser receber atribuição de funções de fechamento. As funções de fechamento são definidas na guia Funções de fechamento. Essas não são funções de fechamento, mas em vez disso ajudam a definir os processos de fechamento de uma organização.
 
 1. No lado esquerdo da página, selecione a guia **Funções de fechamento**.
 
