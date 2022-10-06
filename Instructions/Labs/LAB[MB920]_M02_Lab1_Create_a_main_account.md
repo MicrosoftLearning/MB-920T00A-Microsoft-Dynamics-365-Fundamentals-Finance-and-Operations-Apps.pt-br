@@ -2,13 +2,8 @@
 lab:
   title: 'Laboratório 1: Criar uma conta principal'
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
-ms.openlocfilehash: 6568afcb26212ab952a48dfaf7bb4f377e4ffd36
-ms.sourcegitcommit: aa74c0578c7018838f0c935f5901e9c667ef0801
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116647"
 ---
+    
 # <a name="module-2-learn-the-fundamentals-of-microsoft-dynamics-365-finance"></a>Módulo 2: Conheça os princípios básicos do Microsoft Dynamics 365 Finance
     
 ## <a name="lab-1---create-a-main-account"></a>Laboratório 1: Criar uma conta principal

@@ -2,13 +2,8 @@
 lab:
   title: 'Laboratório 1: Navegue por aplicativos financeiros e operacionais'
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
-ms.openlocfilehash: f1d534e6d6d960be8f6672048f83a20a491264cc
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116210"
 ---
+
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Módulo 1: Explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
 
 ## <a name="lab-1---navigate-finance-and-operations-apps"></a>Laboratório 1 - Navegar por aplicativos de finanças e operações
