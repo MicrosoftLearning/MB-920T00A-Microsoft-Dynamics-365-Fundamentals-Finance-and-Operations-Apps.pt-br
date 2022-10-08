@@ -2,13 +2,8 @@
 demo:
   title: 'Demonstração 1: Preços de operações de projetos'
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
-ms.openlocfilehash: bbe3de969557591700be5874c7c709b74d1d286a
-ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137909236"
 ---
+
 ## <a name="demo-1---project-operations-pricing"></a>Demonstração 1 —Preços de Operações de Projetos
 
 1. Navegue até o workspace **Gerenciamento de projetos**.  
