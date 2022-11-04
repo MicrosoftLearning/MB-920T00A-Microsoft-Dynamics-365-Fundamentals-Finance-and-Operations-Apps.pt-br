@@ -34,7 +34,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
         pass@word1
 
-    >[!Note] O Internet Explorer pode abrir de forma automática no desktop. Se você ainda não completou as etapas 2 a 5, termine-as antes de navegar de volta para o Internet Explorer.
+    >[!Note] O Microsoft Edge pode abrir automaticamente na área de trabalho. Se você ainda não concluiu as Etapas 2 – 5, termine-as antes de retornar ao Microsoft Edge.
 
 1. Selecione o arquivo **AdminUserProvisioning** no desktop.
 
@@ -45,7 +45,7 @@ Sua credenciais encontram-se no menu **Recursos** no canto superior direito da t
 
 1. Selecione **Ok** para continuar.
 
-1. Abra o **Internet Explorer**.
+1. Abra o **Microsoft Edge**.
 
 1. Abra o seguinte link: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
