@@ -31,3 +31,5 @@ lab:
     - Padrão de DB/CR: **Débito**
 
  ![Captura de tela de Contas principais ─ gráfico de contas: Página compartilhada com os campos da etapa 5 preenchidos](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6. Clique em **Save** (Salvar).
