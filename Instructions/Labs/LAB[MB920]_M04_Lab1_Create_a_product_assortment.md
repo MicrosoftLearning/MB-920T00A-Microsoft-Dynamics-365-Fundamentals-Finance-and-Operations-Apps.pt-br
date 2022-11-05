@@ -20,17 +20,13 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 1. No painel de navegação, selecione **Varejo e Comércio** > **Catálogos e sortimentos** > **Sortimentos**.
 
-1. Aguarde até que a página seja carregada.
-
 1. Na página Sortimentos, selecione **+ Novo**.
 
-1. No painel Novo Registro, expanda **Geral**.
+1. No painel Novo Registro, expanda **Geral** se necessário.
 
 1. Selecione a caixa **Data efetiva** e, em seguida, selecione uma data no futuro.
 
 1. Na caixa **Nome do sortimento**, insira um nome para o novo sortimento. Por exemplo, **Nova temporada de primavera**.
-
-1. Defina a **Data de validade** como **Nunca**.
 
 1. A data de validade pode ser usada para desativar automaticamente um sortimento publicado.
 
