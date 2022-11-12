@@ -16,15 +16,15 @@ lab:
 
 4. O formulário do diário de contagem de estoque será exibido com cabeçalho e informações detalhadas
 
-![Captura de tela do formulário do diário de contagem de estoque com o cabeçalho e as informações detalhadas preenchidos.](../media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
+    ![Captura de tela do formulário do diário de contagem de estoque com o cabeçalho e as informações detalhadas preenchidos.](./media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
 
-5. Clique em **Criar linhas –&gt; Online** no painel de ação.
+5. Selecione **Criar linhas –&gt; Manual** no painel de ações.
 
-6. No painel de diálogo **Criar diário de contagem de itens disponíveis**, defina os campos **Warehouse**, **Status do estoque**, Localização e **Placa de licença** como **Sim**. 
+6. No painel de diálogo **Criar diário de contagem manual**, defina os campos **Depósito**, **Status do estoque**, **Localização** e **Placa de licença** como **Sim**. 
 
-![Captura de tela do painel de diálogo Criar diário de contagem de itens disponíveis com os campos definidos conforme descrito.](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
+    ![Captura de tela do painel de diálogo Criar diário de contagem de itens disponíveis com os campos definidos conforme descrito.](./media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Expanda a seção **Registro a incluir** e clique no link de **Filtrar**. No campo **Número do Item**, clique em **A0001** e, em seguida, em **OK**.
+7. Expanda a seção **Registros a incluir** e clique no link de **Filtrar**. Para o campo **Número do item**, digite **A0001** em Critérios e selecione **OK**.
 
 8. Na parte inferior do formulário de diálogo **Criar diário de contagem de itens disponíveis**, clique em **OK**.
 
