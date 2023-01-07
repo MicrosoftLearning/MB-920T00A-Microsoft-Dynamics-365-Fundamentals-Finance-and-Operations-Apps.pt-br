@@ -24,7 +24,7 @@ lab:
 
     - Nome: **Despesa com chamadas internacionais**
 
-    - Tipo de despesa principal: **Despesa**
+    - Tipo de conta principal: **Despesa**
 
     - Categoria da conta principal: **TANDEEXP**
 
