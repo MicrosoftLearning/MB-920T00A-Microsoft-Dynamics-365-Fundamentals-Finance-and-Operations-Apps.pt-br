@@ -4,11 +4,11 @@ permalink: index.html
 layout: home
 ---
 
-# <a name="content-directory"></a>Diretório de conteúdo
+# Diretório de conteúdo
 
 Hiperlinks para cada um dos exercícios de laboratório e demonstrações estão listados abaixo.
 
-## <a name="labs"></a>Laboratórios
+## Laboratórios
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Módulo | Laboratório |
@@ -16,7 +16,7 @@ Hiperlinks para cada um dos exercícios de laboratório e demonstrações estão
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} — {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## <a name="demos"></a>Demonstrações
+## Demonstrações
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
 | Módulo | Demonstração |
