@@ -4,7 +4,7 @@ demo:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
 ---
 
-## <a name="demo-1---assigning-learning-courses"></a>Demonstração 1 — Cursos de aprendizado online
+## Demonstração 1 — Cursos de aprendizado online
 
 1. Navegue até a página inicial de **Recursos humanos do Microsoft Dynamics 365**.  
     Nos recursos humanos do Microsoft Dynamics 365, os gerentes de pessoal podem atribuir cursos de treinamento aos funcionários. Neste exemplo, a nova contratada da empresa, Alicia, precisa receber o treinamento disponível para os funcionários em seus primeiros trinta dias.

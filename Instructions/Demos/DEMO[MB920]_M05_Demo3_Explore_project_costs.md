@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-3---explore-project-costs"></a>Demonstração 3 – Explorar os custos do projeto
+## Demonstração 3 – Explorar os custos do projeto
 
 Nesta demonstração, veremos a criação de uma entrada de tempo e despesa que será cobrada no projeto da Contoso Consulting. Vamos explorar as entradas em formatos otimizados para apresentação móvel e na Web, e veremos como um fluxo de trabalho é usado para gerenciar o processo de aprovação.
 
