@@ -4,7 +4,7 @@ demo:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="demo-1---month-end-close"></a>Demonstração 1 – Fechamento de fim de mês
+## Demonstração 1 – Fechamento de fim de mês
 
 1. Navegue até a Página inicial **Microsoft 365 for Finance and Operations**.  
     Para criar um novo período financeiro de fechamento no Microsoft Dynamics 365 for Finance and Operations, como um fechamento de fim de mês, primeiro navegue até o módulo **Contabilidade**.
