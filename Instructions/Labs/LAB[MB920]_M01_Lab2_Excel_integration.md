@@ -4,35 +4,37 @@ lab:
   module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Módulo 1: Explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
+# Módulo 1: Explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
 
-## <a name="lab-2---excel-integration"></a>Laboratório 2: Integração do Excel
+## Laboratório 2: Integração do Excel
 
-## <a name="objective"></a>Objetivo
+## Objetivo
 
-Neste laboratório, você aprenderá a copiar dados de finanças e operações para o Excel usando o aplicativo de suplemento Dynamics Office. Você também aprenderá como o mesmo aplicativo pode ser usado para inserir dados em aplicativos de finanças e operações.
+Neste laboratório, você aprenderá a copiar dados de finanças e operações para o Excel usando o aplicativo de suplemento do Office Conector de Dados Dinâmicos. Você também saberá como o mesmo aplicativo pode ser usado para inserir dados no Dynamics 365 Finance and Operations. 
 
-## <a name="lab-steps"></a>Etapas do laboratório
+## Configuração do Laboratório
 
-Agora que você está familiarizado com os aplicativos de finanças e operações, explore o cenário de integração do Excel.
+   - **Tempo estimado**: 5 minutos
 
-1. Verifique se você está na entidade legal da USMF 
+## Instruções
 
-2. Acesse **Compras e fornecimento** > **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
+Agora que você está familiarizado com os aplicativos de finanças e operações, explore o cenário de integração do Excel. 
 
-3. Selecione **Abrir no Microsoft Office** > **Abrir no Excel**.
+1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. 
 
-4. Selecione **Grupos de fornecedores** (usmf) e baixe o modelo do Excel.
+2.  Acesse **Compras e fornecimento** > **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
 
-5. Salve e abra o modelo do Excel baixado, forneça a permissão, se necessário, feche a ativação e clique em **Habilitar edição**. Torne o suplemento confiável e faça logon (com as mesmas credenciais, se solicitado).
+3.  No painel de ações, selecione **Abrir no Microsoft Office** e, **em Abrir no Excel**, selecione **Grupos de fornecedores (usmf)** .
 
-    Todos os dados existentes da tabela Grupo de fornecedores serão exibidos na planilha do Excel.
+4.  No painel **Abrir no Excel**, selecione **Baixar**. 
 
-6.  Crie um registro.
+5.  O arquivo de modelo do Excel será baixado e salvo. **Abra** o arquivo de modelo do Excel baixado, ignore ou permita outros prompts de segurança padrão. Se necessário, feche a ativação e selecione **Habilitar Edição**. Selecione **Confie nesse suplemento** e entre (usando as mesmas credenciais, se solicitado). 
 
-7. Insira **100** no campo **Grupo de fornecedores**, **Fornecedor de seguros** no campo **Descrição** e **Net10** no campo **Termos de pagamento**.
+    Depois de entrar, o aplicativo Conector de Dados atualiza os dados existentes da tabela **Grupo de fornecedores** e é exibido na planilha do Excel. 
 
-8. Pressione o botão **Publicar** no aplicativo Suplemento do Microsoft Dynamics Office.
+6.  Para criar um registro, insira `100` no campo **Grupo de fornecedores**, `Insurance vendor` no campo **Descrição** e `Net10` no campo **Termos de pagamento**. 
 
-9. Abra o formulário do **Grupo de fornecedores** e verifique se o novo registro foi adicionado.
+7.  Selecione o botão **Publicar** no painel de tarefas Conector de Dados Dinâmicos da Microsoft. 
+
+8.  Atualize a lista **Grupos de fornecedores** no Dynamics 365 Finance e Operations para verificar se o novo registro foi adicionado com êxito. 
 

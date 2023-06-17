@@ -4,30 +4,39 @@ lab:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="lab-2---create-a-free-text-invoice"></a>Laboratório 2: Criar uma fatura de texto livre
+# Módulo 2: Conheça os princípios básicos do Microsoft Dynamics 365 Finance
 
-## <a name="instructions"></a>Instruções
+## Laboratório 2: Criar uma fatura de texto livre
 
-1. Na **página inicial do Finance and Operations**, na parte superior direita, verifique se você está trabalhando com a empresa USMF.
+## Configuração do Laboratório
 
-2. Se necessário, selecione a empresa e, no menu, selecione **USMF**.
+   - **Tempo estimado**: 5 minutos
 
-3. No painel de navegação esquerdo, clique em **Módulos** > **Contas a receber** > **Faturas** > **Todas as faturas de texto livre**.
+## Instruções
 
-4. No menu superior, selecione **+ Novo**.
+1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. 
 
-5. No campo **Conta do cliente**, selecione **US-001**.
+2.  Se necessário, selecione a empresa e, no menu, selecione **USMF**. 
 
-6. Acesse a linha da fatura e clique em **601510** na conta **Principal**.
+3.  No painel de navegação esquerdo, no módulo **Contas a receber**, selecione **Faturas** > **Todas as faturas de texto livre**. 
 
-Os campos Grupo de impostos e Grupo de impostos do item devem ser atualizados automaticamente com AC e AU/VI, respectivamente.
+4.  Selecione **+ Novo** no painel de ações. 
 
-7. Insira **10** no campo **Quantidade**.
+5.  No campo **CLIENTE > Conta do cliente**, selecione ou insira `US-001`
 
-8. Insira **1,2** no campo **Unidade**.
+6.  Altere o ano no campo **FATURA > Data** para 2022. Verifique se o **Prazo** é atualizado para 10 dias depois, também em 2022. 
 
-9. No menu **Ação contábil**, selecione **Exibir distribuições**. 
+7.  Navegue até as **linhas da fatura** e selecione ou insira `601510` no campo **Conta principal** . 
 
-10. Feche a página Exibir distribuições.
+8.  Verifique os campos **Grupo de impostos sobre vendas** e **Grupo de impostos sobre vendas de itens** preenchidos automaticamente com **AC** e **AU/VI**, respectivamente. 
 
-11. Clique em **Postar ação** no menu para postar a fatura de texto livre.
+9.  Insira `10` no campo **Quantidade**. 
+
+10. Insira `1.2` no campo **Preço unitário**. 
+
+11.  Selecione a guia **Contabilidade** no painel de ação e, em **Contabilidade**, selecione **Exibir distribuições**. Examine as distribuições. 
+
+12. **Feche** a página Exibir distribuições. 
+
+13. Selecione o botão **Postar** no painel de ação e selecione **OK** na caixa de diálogo. 
+
