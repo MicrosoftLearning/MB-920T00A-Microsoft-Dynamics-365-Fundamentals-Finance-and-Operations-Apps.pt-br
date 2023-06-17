@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-2---create-an-invoice"></a>Demonstração 2 — Criar uma fatura
+## Demonstração 2 — Criar uma fatura
 
 1. Navegue até o workspace  **Gerenciamento de projetos**.  
     Nesta demonstração, vamos examinar o processo de faturar um único projeto nas operações de projeto. Embora seja possível executar o faturamento em lote, para fins de demonstração, vamos nos concentrar apenas em um único projeto de material e tempo.Também veremos os resultados de lançamento e as informações financeiras no demonstrativo de projeto. Vamos começar com o faturamento do projeto. 
