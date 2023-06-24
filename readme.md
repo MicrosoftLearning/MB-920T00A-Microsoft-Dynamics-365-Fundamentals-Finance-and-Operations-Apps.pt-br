@@ -1,16 +1,16 @@
-# <a name="inf99x-sample-course"></a>INF99X: Amostra de curso
+# MB-920: aplicativos de finanças e operações do Microsoft Dynamics 365 Fundamentals
 
-- **[Faça o download do manual mais recente do aluno e do conteúdo AllFiles](../../releases/latest)**
-- <bpt id="p1">**</bpt>Are you a MCT?<ept id="p1">**</ept> - Have a look at our <bpt id="p1">[</bpt>GitHub User Guide for MCTs<ept id="p1">](https://microsoftlearning.github.io/MCT-User-Guide/)</ept>
-- <bpt id="p1">**</bpt>Need to manually build the lab instructions?<ept id="p1">**</ept> - Instructions are available in the <bpt id="p1">[</bpt>MicrosoftLearning/Docker-Build<ept id="p1">](https://github.com/MicrosoftLearning/Docker-Build)</ept> repository
+- **[Faça o download do manual mais recente do aluno e do conteúdo AllFiles](https://learningdownloadcenter.microsoft.com/)**
+- **Você é um MCT?** Dê uma olhada no nosso [Guia de usuário do GitHub para MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
+- **Precisa criar manualmente as instruções do laboratório?** - As instruções estão disponíveis no repositório [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build)
 
-## <a name="what-are-we-doing"></a>O que estamos implementando?
+## O que estamos implementando?
 
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
+- Vamos fazer atualizações constantes no conteúdo deste curso para acompanhar os serviços do Azure usados nele.  Estamos publicando as instruções e os arquivos de laboratório no GitHub para permitir contribuições abertas entre os autores do curso e os MCTs, com o objetivo de manter o conteúdo atualizado com as mudanças na plataforma do Azure.
 
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
+- Esperamos que isso traga uma sensação de colaboração para os laboratórios como nunca tivemos antes. Quando o Dynamics mudar e você o encontrar pela primeira vez durante uma apresentação ao vivo, faça um aprimoramento diretamente na fonte do laboratório.  Ajude seus colegas MCTs.
 
-## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>Como devo usar esses arquivos em relação aos arquivos MOC lançados?
+## Como devo usar esses arquivos em relação aos arquivos MOC lançados?
 
 - O manual do instrutor e os PowerPoints ainda serão sua principal fonte para ministrar o conteúdo do curso.
 
@@ -18,18 +18,18 @@
 
 - Recomendamos que, para cada curso, os instrutores verifiquem o GitHub em busca de qualquer alteração que possa ter sido feita para mantê-lo compatível com os serviços mais recentes do Azure, a fim de obter os arquivos atualizados.
 
-## <a name="what-about-changes-to-the-student-handbook"></a>E as alterações no manual do aluno?
+## E as alterações no manual do aluno?
 
 - Vamos revisar o manual do aluno trimestralmente e atualizar por meio dos canais normais de lançamento do MOC conforme necessário.
 
-## <a name="how-do-i-contribute"></a>Como posso contribuir?
+## Como posso contribuir?
 
 - Qualquer MCT pode enviar uma solicitação para o código ou conteúdo no repositório do GitHub. A Microsoft e o autor do curso farão uma triagem e incluirão o conteúdo e as alterações do código do laboratório conforme necessário.
 
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
+- É possível enviar problemas, alterações, aprimoramentos e ideias.  Encontrou um novo recurso do Dynamics antes de nós?  Envie uma nova demonstração!
 
-## <a name="notes"></a>Observações
+## Observações
 
-### <a name="classroom-materials"></a>Materiais de aula
+### Materiais de aula
 
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+É altamente recomendável que MCTs e Parceiros acessem esses materiais e os forneçam separadamente aos alunos.  Redirecionar os alunos para o GitHub a fim de acessar as etapas do laboratório como parte de uma aula em andamento exigirá que eles acessem outra IU durante o curso, tornando a experiência complexa. Uma explicação para o aluno sobre o motivo pelo qual eles estão recebendo instruções de laboratório separadas pode realçar a natureza de uma interface e plataforma baseada em nuvem em constante mudança. O suporte do Microsoft Learning para acessar arquivos no GitHub e o suporte para navegação do GitHub são limitados apenas aos MCTs que ministram este curso.
