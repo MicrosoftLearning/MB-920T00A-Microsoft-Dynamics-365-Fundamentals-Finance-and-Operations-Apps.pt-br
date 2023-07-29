@@ -18,23 +18,25 @@ Neste laboratório, você aprenderá a copiar dados de finanças e operações p
 
 ## Instruções
 
-Agora que você está familiarizado com os aplicativos de finanças e operações, explore o cenário de integração do Excel. 
+Agora que você está familiarizado com os aplicativos de finanças e operações, explore o cenário de integração do Excel.
 
-1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. 
+1.  Verifique se você está na entidade legal da **USMF**.
 
 2.  Acesse **Compras e fornecimento** > **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
 
-3.  No painel de ações, selecione **Abrir no Microsoft Office** e, **em Abrir no Excel**, selecione **Grupos de fornecedores (usmf)** .
+3.  Selecione **Abrir no Microsoft Office** > **Abrir no Excel**.
 
-4.  No painel **Abrir no Excel**, selecione **Baixar**. 
+4.  Selecione **Grupos de fornecedores** (usmf) e baixe o modelo do Excel.
 
-5.  O arquivo de modelo do Excel será baixado e salvo. **Abra** o arquivo de modelo do Excel baixado, ignore ou permita outros prompts de segurança padrão. Se necessário, feche a ativação e selecione **Habilitar Edição**. Selecione **Confie nesse suplemento** e entre (usando as mesmas credenciais, se solicitado). 
+5.  Salve e abra o modelo do Excel baixado, forneça a permissão, se necessário, feche a ativação e clique em **Habilitar edição**. Torne o suplemento confiável e faça logon (com as mesmas credenciais, se solicitado).
 
-    Depois de entrar, o aplicativo Conector de Dados atualiza os dados existentes da tabela **Grupo de fornecedores** e é exibido na planilha do Excel. 
+    Todos os dados existentes da tabela **Grupo de fornecedores** são exibidos na planilha do Excel.
 
-6.  Para criar um registro, insira `100` no campo **Grupo de fornecedores**, `Insurance vendor` no campo **Descrição** e `Net10` no campo **Termos de pagamento**. 
+6.  Crie um registro.
 
-7.  Selecione o botão **Publicar** no painel de tarefas Conector de Dados Dinâmicos da Microsoft. 
+7.  Insira **100** no campo **Grupo de fornecedores**, **Fornecedor de seguros** no campo **Descrição** e **Net10** no campo **Termos de pagamento**.
 
-8.  Atualize a lista **Grupos de fornecedores** no Dynamics 365 Finance e Operations para verificar se o novo registro foi adicionado com êxito. 
+8.  Pressione o botão **Publicar** no aplicativo Suplemento do Microsoft Dynamics Office.
+
+9.  Abra o formulário do **Grupo de fornecedores** e verifique se o novo registro foi adicionado.
 

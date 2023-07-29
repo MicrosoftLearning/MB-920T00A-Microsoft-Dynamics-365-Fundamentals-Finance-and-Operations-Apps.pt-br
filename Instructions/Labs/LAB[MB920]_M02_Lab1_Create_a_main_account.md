@@ -14,27 +14,51 @@ lab:
 
 ## Instruções
 
-1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. 
 
-2.  Se necessário, selecione o seletor da empresa e escolha **USMF**. 
+1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**.
 
-3.  No painel de navegação esquerdo, no módulo **Contabilidade**, selecione **Plano de contas** > **Contas** > **Contas principais**.
+2.  Se necessário, selecione a empresa e, no menu, selecione **USMF**.
 
-4.  Selecione **+ Novo** no painel de ações.
+3.  No painel de navegação esquerdo, clique em **Módulos** > **Contabilidade** > **Plano de contas** > **Contas** > **Contas principais**.
 
-5.  Insira os seguintes valores na página **Conta principal**: 
+4.  No painel de ações, selecione **+ Novo**.
 
-    - Conta principal: `601510`
+5.  Insira os seguintes valores na página **Conta principal**:
 
-    - Nome: `International call expense`
+    - Conta principal: **601510**
 
-    - Tipo de conta principal: `Expense`
+    - Nome: **Despesa com chamadas internacionais**
 
-    - Categoria da conta principal: `TANDEEXP`
+    - Tipo de despesa principal: **Despesa**
 
-    - Padrão de DB/CR: `Debit`
+    - Categoria da conta principal: **TANDEEXP**
 
-    ![Captura de tela de Contas principais ─ gráfico de contas: Página compartilhada com os campos da etapa 5 preenchidos](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+    - Padrão de DB/CR: **Débito**
 
-6.  Selecione **Salvar** e **feche** a página. 
+    ![A captura de tela mostra contas principais – gráfico de contas: página compartilhada em que diferentes valores precisam ser adicionados.](./media/lab-create-a-main-account-01.png)
 
+6.  Navegue até **Módulos &gt; Razão geral &gt; Entradas do diário &gt; Diários gerais.**
+
+7.  No painel de ações, selecione **+ Novo**.
+
+8.  Insira o seguinte valor na página **Diários gerais** e selecione **Linhas** no painel de ação:
+
+    - Nome: GenJrn
+
+9.  Insira os seguintes valores na página **Comprovante de diário**:
+
+    - Tipo de conta: **Razão**
+
+    - Conta principal: **601510**
+
+    - Débito: **10.00** 
+
+    - Tipo de conta de deslocamento: **Razão**
+
+    - Número da conta de deslocamento: **110180** 
+
+10. Pressione o botão **Salvar** no painel de ação.
+
+11. Selecione **Validar &gt; Simular postagem**. 
+
+12. Pressione o botão **Postar** no painel de ações. O diário deve ser postado.

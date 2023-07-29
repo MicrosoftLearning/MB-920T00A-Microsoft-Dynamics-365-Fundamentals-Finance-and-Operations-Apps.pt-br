@@ -18,57 +18,63 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 ## Instruções
 
-1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. 
+1.  Na página inicial de “Finanças e operações”, na parte superior esquerda, selecione o menu de opções **Expandir o painel de navegação**.
 
-1.  Se necessário, selecione a empresa e, no menu, selecione **USMF**. 
+2.  No painel de navegação, selecione **Varejo e Comércio** > **Catálogos e sortimentos** > **Sortimentos**.
 
-1.  No painel de navegação esquerdo, no módulo **Varejo e Comércio**, selecione **Catálogos e variedades** > **Variedades**. 
+3.  Aguarde até que a página seja carregada.
 
-1.  Na página **Sortimentos**, selecione **+ Novo**. 
+4.  Na página **Sortimentos**, selecione **+ Novo**.
 
-1.  No formulário **Novo Registro**, se necessário, expanda a FastTab**Geral**. 
+5.  No painel **Novo registro**, expanda **Geral**.
 
-1.  Selecione o campo **Data de início de vigência** e, em seguida, selecione uma data no futuro.  
+6.  Selecione a caixa **Data efetiva** e, em seguida, selecione uma data no futuro.
 
-1.  No campo **Nome de variedade**, insira um nome para a nova variedade. Por exemplo, `New Spring Season`
+7.  Na caixa **Nome do sortimento**, insira um nome para o novo sortimento. Por exemplo, **Nova temporada de primavera**.
 
-    > **Nota:** a **Data de validade** pode ser usada para desativar automaticamente uma variedade publicada. 
+8.  Defina a **Data de validade** como **Nunca**.
 
-1.  Expanda a FastTab **Canais de comércio**. 
+    A data de validade pode ser usada para desativar automaticamente um sortimento publicado.
 
-1.  Na barra de ferramentas **Canais de comércio**, selecione **+ Adicionar linha**. 
+9.  Expanda **Canais de comércio**.
 
-1.  No painel **Escolher nós da organização**, para o campo **Hierarquia da organização**, selecione **Lojas de varejo por tipo (Fabrikam)** . 
+10. No menu **Canais de comércio**, selecione **+ Adicionar linha**.
 
-1.  Na lista NÓS DA ORGANIZAÇÃO DISPONÍVEIS, selecione Online e, em seguida, adicione o ícone ![Seta para a direita](./media/d365-fo-add-org-node-icon.png) para adicioná-lo aos **NÓS DA ORGANIZAÇÃO SELECIONADA**.
+11. Em **Escolher nós da organização**, clique no menu **Hierarquia da organização** e, em seguida, em **Lojas de varejo por tipo (Fabrikam)**.
 
-    Isso adicionará o nó pai e todos os nós filho. 
+12. Na lista **NÓS DA ORGANIZAÇÃO DISPONÍVEIS**, selecione **Online** e selecione o ícone **Adicionar** ![Figura 15](./media/04-learn-the-fundamentals-of-dynamics-365-commerce-17.png) para adicioná-lo a **NÓS DA ORGANIZAÇÃO SELECIONADOS**.
 
-1.  Adicione o nó pai **Mall** e, em seguida, selecione **OK**. 
+    Isso adiciona o nó pai e todos os nós filho.
 
-1.  Verifique se os dois nós foram adicionados à FastTab **Canais de comércio**. 
+13. Adicione o nó pai **Mall** e, em seguida, selecione **OK**.
 
-1.  Expanda a FastTab **Produtos**. 
+14. Verifique se os dois nós foram adicionados aos canais de Comércio.
 
-1.  Na barra de ferramentas **Produtos**, selecione **+Adicionar linha**. 
+15. Expanda **Produtos**.
 
-1.  Para o campo **Categoria**, expanda **Esportes em equipe (Esportes em equipe)** e **OK**.
+16. No menu **Produtos**, selecione **+ Adicionar linha**.
 
-    Isso adicionará todos os itens filho da categoria pai.
+17. Clique no menu **Categoria**, selecione **Esportes em equipe** e, em seguida, **OK**.
 
-1.  Revise a última coluna chamada **Tipo de linha**. Por padrão, todos os itens serão incluídos.
+    Isso adiciona todos os itens filho da categoria pai.
 
-1.  Selecione **+ Adicionar linha**, selecione o menu **Categoria**, expanda **Esportes em equipe**, selecione **Basebol** e, em seguida, **selecione OK**. 
+18. Revise a última coluna chamada **Tipo de linha**. Por padrão, todos os itens serão incluídos.
 
-1.  Para excluir um item de uma categoria maior já incluída, neste caso, Esportes em equipe, na coluna **Tipo de linha**, altere o valor para `Exclude` 
+19. Selecione **+ Adicionar linha**, selecione o menu **Categoria**, expanda **Esportes em equipe**, selecione **Basebol** e, em seguida, **selecione OK**.
 
-1.  Usando a linha Categoria de basebol, selecione o menu **Produtos**. 
+20. Para excluir um item de uma categoria maior já incluída, neste caso, **Esportes em equipe**, na coluna **Tipo de linha**, altere o valor para **Excluir**.
 
-1.  Quando os produtos dentro de uma categoria são definidos, você pode selecionar um produto específico para incluir ou excluir. Selecione **AdultBaseballInfield** ou insira `0013` 
+21. Usando a linha da categoria **Basebol**, clique no menu **Produtos**.
 
-    > **Nota:** para remover um produto adicionado, exclua o conteúdo do campo **Produto** e pressione Tab ou selecione outra área da página. 
+22. Quando os produtos dentro de uma categoria são definidos, você pode selecionar um produto específico para incluir ou excluir. Selecione **AdultBaseballInfield**.
 
-1.  No painel de ações, selecione **Salvar** e selecione **Publicar**. 
+23. Para remover um produto adicionado, exclua o conteúdo da caixa do produto e pressione a tecla **Tab** no teclado ou selecione outra área da página.
 
-1.  Escolha **Sim** no diálogo de confirmação. A variedade de produto recém-criada ficará disponível na **Data de início de vigência** selecionada. 
+24. No menu superior, selecione **Salvar**.
+
+25. No menu superior, selecione **Publicar**.
+
+26. Revise as informações na caixa de diálogo e selecione **Sim**.
+
+    O sortimento de produto recém-criado fica disponível na data de início de vigência.
 

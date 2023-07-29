@@ -10,7 +10,7 @@ lab:
 
 ## Objetivo
 
-Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para que uma nova configuração de gabinete seja comprada de fornecedores. 
+Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova configuração de um gabinete de um fornecedor.  Você precisa criar um item para representar a nova configuração.  Neste laboratório, você aprenderá a criar um item e configurações do item.
 
 ## Configuração do Laboratório
 
@@ -18,62 +18,98 @@ Em Contoso Entertainment System USA (USMF), é preciso criar um novo item para q
 
 ## Instruções
 
-1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. 
+Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova configuração de um gabinete de um fornecedor.  Você precisa criar um item para representar a nova configuração. 
 
-1.  Se necessário, selecione a empresa e, no menu, selecione **USMF**.
+1.  Na página inicial Finanças e Operações, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. Se necessário, no menu suspenso da empresa, selecione **USMF**.
 
-1.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**. 
+2.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**.
 
-1.  No painel de navegação, no módulo **Gerenciamento de informações do produto**, selecione **Produtos** > **Produtos lançados**. 
+3.  No painel de navegação, selecione **Módulos** e, em seguida, **Gerenciamento de informações do produto**. Depois, no menu **Produtos**, selecione **Produtos**.
 
-1.  Na página **Detalhes do produto lançado**, selecione **+ New** no painel de ações. 
+4.  Na página **Produtos**, no menu superior, selecione **+ Novo**.
 
-1.  No painel de **Novos produtos lançados**, para o campo  **Tipo de produto** , verifique se **Item** está selecionado. 
+5.  Na página **Novo produto**, no campo **Tipo de produto**, verifique se **Item** está selecionado.
 
-1.  No campo  **Subtipo do produto** , verifique se **Produto** está selecionado. 
+6.  No campo **Subtipo do produto**, verifique se **Produto** está selecionado.
 
-1.  Selecione o menu  **Grupo de dimensões de rastreamento**  e insira ou selecione  `None` 
+7.  Em **IDENTIFICAÇÃO**, na caixa **Número do produto**, digite **GTL007**.
 
-1.  Em **IDENTIFICAÇÃO**, para o **Número do produto**, insira `GTL007`
+8.  Na caixa **Nome do produto**, digite **Gabinete 2**.
 
-1.  Na caixa  **Nome do produto** , insira  `Cabinet 2`
+    ![A captura de tela mostra a exibição padrão da nova página de criação de produto.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
-1.  Em **GRUPOS DE REFERÊNCIA**, no campo  **Grupo de modelos de item** , insira ou selecione  `FIFO`, primeiro a entrar, primeiro a sair. 
+9.  Selecione o botão **OK**.
 
-1.  Para o campo **Grupo de itens**, insira ou selecione `TV&Video` 
+10. No menu **Produto** no Painel de Ação, selecione **Grupos de dimensões** no grupo **Configurar**.
 
-1.  Para **Grupo de dimensões de armazenamento**, insira ou selecione `SiteWH` 
+    ![A captura de tela mostra a opção configurar no menu do produto em que os diferentes detalhes do grupo de dimensões podem ser adicionados.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
-1.  Em **UNIDADES DE MEDIDA**, verifique se foram definidos os seguintes valores: 
+11. Clique no menu suspenso **Grupo de dimensões de armazenamento** e selecione **SiteWH**.
 
-    | **Configuração**    | **Valor** |
-    | :------------- | :-------- |
-    | Unidade de inventário | ea Cada   |
-    | Unidade de compra  | ea Cada   |
-    | Unidade de vendas     | ea Cada   |
-    | Unidade BOM       | ea Cada   |
+12. Selecione o menu suspenso **Grupo de dimensões de rastreamento** e selecione **Nenhum**.
 
-1.  Em **IMPOSTO SOBRE VENDAS**, para **Grupo de impostos sobre vendas de itens**, insira ou selecione  `ALL` 
+13. Selecione o botão **OK**.
 
-1.  Em **IMPOSTO SOBRE COMPRAS**, para **Grupo de impostos sobre vendas de itens**, insira ou selecione  `ALL` 
+14. Selecione o botão **Lançar produtos** no Painel de Ação para lançar o produto em uma entidade legal.
 
-1.  Em **PREÇOS**, no campo **Preço da compra** , insira  `30.00`
+15. Uma página é aberta exibindo a primeira etapa como **Selecionar produtos a serem lançados.**
 
-1.  No campo  **Preço de vendas** , insira  `30.00`
+    ![A captura de tela mostra a exibição padrão da página lançar produtos.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
-1.  Verifique se o novo **produto lançado** tem esta aparência: 
+16. Selecione o botão **Avançar** na parte inferior da página
 
-    ![Imagem de tela mostrando o formulário do novo produto liberado preenchido](./media/lp1-m2-new-release-product.png)
+17. Na página **Selecionar empresas para as quais lançar**, selecione a entidade jurídica **USMF** em que o produto deve ser lançado.
 
-1.  Selecione  **OK**. 
+18. Selecione o botão **Avançar** na parte inferior da página.
 
-1.  Para garantir que o produto seja finalizado, no painel de ações, em **Manter**, selecione a ação **Validar**. 
+19. Na página **Confirmar seleção**, defina o valor de **Mostrar Infolog após falha** como **Sim** e **Executar como lote** como **Não**.
 
-    ![Imagem de tela mostrando a barra de faixa de opções com a opção Validar em destaque](./media/lp1-m2-validate-ribbon-bar.png)
+20. Clique no botão **Concluir** na parte inferior da página.
 
-1.  Verifique se você recebeu a notificação confirmando que todos os valores de campo obrigatórios foram validados. 
+21. No painel de navegação, selecione Módulos e, em seguida, Gerenciamento de informações do produto. Depois, no menu Produtos, selecione **Lançados**.
 
-    ![Imagem de tela com a notificação da informação de que todos os campos exigidos foram validados](./media/lp1-m2-confirmation-of-validation.png)
+22. Na página **Lançamentos** **produtos**, localize o novo item **GTL007** na grade. 
 
-1.  Selecione **Salvar** e **feche** todas as páginas e retorne à página inicial. 
+23. Selecione o link do produto e navegue até a página **Detalhes do produto**.
 
+24. Na FastTab **Geral**, insira o seguinte:
+
+    - **Grupo de modelos de item**: PEPS
+
+25. Na FastTab **Comprar**, insira o seguinte:
+
+    - **Unidade**: ea
+
+    - **Grupo de impostos sobre vendas**: TODOS
+
+    - **Preço**: 30
+
+26. Na FastTab **Vender**, insira o seguinte:
+
+    - **Unidade**: ea
+
+    - **Grupo de impostos sobre vendas**: TODOS
+
+    - **Preço**: 35
+
+27. No FastTab **Gerenciar inventário**, insira o seguinte:
+
+    - **Unidade**: ea
+
+28. Na FastTab **Engenheiro**, insira o seguinte:
+
+    - **Unidade BOM**: ea
+
+29. Na FastTab **Gerenciar custos**, insira o seguinte:
+
+    - **Grupo de itens**: áudio
+
+30. Para concluir a configuração, selecione Produto no Painel de Ações. Selecione o botão Validar no grupo Manter
+
+    ![A captura de tela mostra o grupo Manter no botão Produto no painel de ações. O botão Validar no grupo Manter está selecionado.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+
+31. Verifique se você recebeu o anúncio em faixa com as informações que confirmam que todos os valores de campo exigidos foram validados.
+
+    ![A captura de tela representa o anúncio em faixa com as informações que confirmam que todos os valores de campo exigidos foram validados. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+
+32. Feche todas as páginas e volte para a Home page.
