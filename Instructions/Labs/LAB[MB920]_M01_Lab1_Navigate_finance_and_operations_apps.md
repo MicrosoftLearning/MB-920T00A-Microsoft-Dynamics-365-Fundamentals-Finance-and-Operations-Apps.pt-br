@@ -35,87 +35,81 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 ### Navegue por aplicativos financeiros e operacionais
 
-1.  Na **página inicial de finanças e operações**, você verá: 
+Agora que você está familiarizado com os aplicativos de finanças e operações, dedique algum tempo para explorar as interfaces.
 
-    -  O menu de navegação na esquerda que está recolhido por padrão. 
+1.  Se a **página Inicial Finanças e Operações** estiver configurada, você verá:
 
-    - A imagem de faixa padrão da empresa. 
+    - O menu de navegação na esquerda que está recolhido por padrão.
 
-    - Tiles do Workspace disponíveis para você com base na sua função na organização. 
+    - O logotipo da sua empresa.
 
-    - Um calendário e itens de trabalho atribuídos a você. 
+    - Tiles do Workspace disponíveis para você com base na sua função na organização.
 
-    - A barra de **Pesquisar uma página** que é muito útil para encontrar o que você precisa de maneira rápida. 
+    - Um calendário e itens de trabalho atribuídos a você.
 
-    - No canto superior direito, você vê a empresa com a qual você está trabalhando, notificações, configurações e links de ajuda. 
+    -  A barra de pesquisa que é muito útil para encontrar o que você precisa de maneira rápida.
 
-    ![Página Inicial da dynamics 365 Finance e Operations com áreas destacadas.](./media/m1-common-home-page.png)
+    - No canto superior direito, você vê a empresa com a qual você está trabalhando, notificações, configurações e links de ajuda. Verifique se a empresa listada é **USMF**.
 
-1.  Verifique se a empresa listada é **USMF**. 
+    ![Captura de tela da página Inicial do Dynamics 365 Finance e Operations com áreas destacadas.](./media/lab-navigate-finance-and-operations-apps-04.png)
 
-1.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**. 
+2.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**.
 
-1.  O painel de navegação é aonde você encontrará coleções para os seus itens **Favoritos**, **Recente**, **Workspaces**, e **Módulos**. 
+3.  O painel de navegação é aonde você encontrará coleções para os seus itens **Favoritos**, **Recente**, **Workspaces** e **Módulos**.
 
-1.  No painel de navegação, selecione **Módulos** > **Administração do sistema**. 
+4.  No painel de navegação, selecione **Módulos** > **Administração do sistema**.
 
-1.  **Examine** as diferentes áreas disponíveis no módulo **Administrador do sistema**. 
+5.  Revise as áreas disponíveis no módulo de administrador do sistema.
 
-1.  Em **Configuração**, selecione **Opções de desempenho do cliente**. 
+6.  Em **Configuração**, selecione **Opções de desempenho do cliente**.
 
-1.  No painel de opções de Desempenho do cliente, em **Avisos de recursos habilitados**, selecione o interruptor e defina-o para **Sim**. 
+7.  No painel **Opções de desempenho do cliente**, em **Avisos de recursos habilitados**, selecione o interruptor e defina-o para **Sim**.
 
-1.  Examine as outras opções disponíveis, desça até o final do painel e selecione **OK**. 
+8.  Revise as outras opções disponíveis, desça até o final do painel e selecione **OK**.
 
-1.  Na página inicial, no canto superior direito, clique no ícone **Configurações** e selecione **Opções de usuário**. 
+9.  Na **página inicial**, no canto superior direito, clique no ícone **Configurações** e selecione **Opções de usuário**.
 
-    ![Captura de tela mostrando o ícone de Configurações e lista suspensa de opções de Usuário](./media/m1-common-settings-user-settings.png)
+    ![Captura de tela mostrando o ícone de Configurações e lista suspensa de Opções de usuário.](./media/lab-navigate-finance-and-operations-apps-05.png)
 
-1.  Na página **Opções do usuário**, use as guias para definir diferentes configurações a serem aplicadas à conta. 
+10. Na página **Opções**, use as guias para definir diferentes configurações a serem aplicadas à conta.
 
-1.  Selecione a guia **Preferências**. 
+11. Selecione a guia **Preferências**.
 
-1.  Revise as preferências disponíveis. Você pode alterar a os campos **Empresa** e **Página inicial** padrão que você verá ao entrar. 
+12. Revise as preferências disponíveis. Observe que você pode alterar a empresa padrão e a página inicial ao entrar.
 
-1.  Selecione e revise as guias **Conta** e **Fluxo de trabalho**. 
+13. Selecione e revise as guias **Conta** e **Fluxo de trabalho**.
 
-1.  No menu Navegação à esquerda, selecione o ícone **Início**. 
+14. No menu Navegação à esquerda, selecione o ícone **Início**.
 
-1.  Na página Inicial, na parte superior no centro da página, selecione a caixa **Pesquisar uma página**. 
+15. Na **página Inicial**, na parte superior central, clique na caixa **Pesquisar uma página**.
 
-1.  Na caixa de pesquisa, pesquise `All vendors` 
+16. Na caixa de pesquisa, pesquise por **Todos os fornecedores**.
 
-1.  Você pode precisar esperar a primeira vez que você pesquisar um página. Você verá um pequeno círculo giratório à direita da caixa de pesquisa enquanto a pesquisa é processada. 
+17. Selecione **Todos os fornecedores** Contas a pagar > Fornecedores
 
-1.  Selecione o primeiro resultado **Todos os fornecedores**, isso é o mesmo que navegar até **Módulos** > **Contas a pagar** > **Fornecedores** > **Todos os fornecedores**. 
+18. Você pode precisar esperar a primeira vez que você pesquisar um página. Há um pequeno círculo giratório à direita da caixa de pesquisa enquanto a pesquisa é processada.
 
-1.  A página **Todos os fornecedores** é um exemplo de página de lista. A página de lista geralmente contém dados mestres que podem ser lidos, criados, excluídos e atualizados. Você verá funções adicionais disponíveis usando o painel de ação acima da lista. 
+19. A página **Todos os fornecedores** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados.  Há mais recursos usando a faixa de opções acima da lista.
 
-    ![A lista de todos os fornecedores com os recursos do menu destacados](./media/m1-common-all-vendor-list-page.png)
+    ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/lab-navigate-finance-and-operations-apps-06.png)
 
-1.  Destaque um dos fornecedores da lista e, à direita, selecione o painel de FactBox **Informações relacionadas** à direita, e examine as informações adicionais fornecidas. 
+20. Destaque um dos fornecedores da lista e, à direita, selecione o menu **Informações relacionadas**, e revise as informações adicionais fornecidas.
 
-1.  Na lista de fornecedores, abra o registro **Acme Office Supplies**. 
+21. Na lista de fornecedores, selecione **Suprimentos do escritório Acme**.
 
-1.  Selecione **Editar** no painel de ações e, em seguida, no campo **Grupo**, selecione o menu suspenso o título de coluna **Grupo de fornecedores**. 
+22. Selecione o menu **Grupo**, e, em seguida, selecione o título da coluna **Grupo do fornecedor**.
 
-    ![Uma captura de tela da coluna do grupo do fornecedor para Suprimentos do escritório Acme.](./media/m1-common-vendor-group-menu-24493345.png)
+    ![Captura de tela da coluna do grupo do fornecedor para Suprimentos do escritório Acme.](./media/lab-navigate-finance-and-operations-apps-07.png)
 
-1.  Muitos menus têm a função **classificar** e **filtrar** disponíveis. Use os filtros para localizar o conteúdo do campo que você está buscando. Se você já souber o valor, poderá simplesmente inseri-lo no campo, em vez de usar o menu suspenso. 
+23.  Muitos menus têm a função classificar e filtrar habilitadas.  Use os filtros para localizar o conteúdo do campo que você está buscando.
 
-1.  À direita do painel de ações, observe a funcionalidade adicional. Passe o mouse sobre cada item e examine o texto explicativo do recurso. 
+24. No canto superior direito, observe a funcionalidade adicional. Leve seu mouse até cada item e revise o aviso do recurso. Ao final, clique no ícone **Fechar** para fechar a página e voltar à **página inicial**.
 
-1.  Selecione o ícone **Fechar** para fechar esse registro e retornar à página de lista **Todos os fornecedores**. 
+    ![Captura de tela do menu de lista da página do canto superior direito mostrando recursos adicionais para conectar aos botões Power Apps, Aplicativos do Office, Anexo de documento, Atualizar página, Abrir em nova janela e Fechar.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
-    ![Menu de lista da página do canto superior direito mostrando recursos adicionais para conectar Power Apps, aplicativos do Office e botões Anexos, Atualizar, Abrir em nova janela e Fechar](./media/m1-common-list-page-additional-features-menu.png)
+25. No canto superior direito, selecione o ícone de interrogação **Ajuda**, e, em seguida, selecione **Ajuda**.
 
-1.  No canto superior direito, selecione o ícone de ponto de interrogação **?** e **Ajuda**. 
+26. Observe que as informações de ajuda estão relacionadas à página atual.
 
-1.  O painel de informações de ajuda está mostrando o conteúdo da página atual. **Feche** o painel de ajuda. 
-
-1.  Retorne ao **painel padrão** usando o botão **Finance and Operations** na parte superior esquerda ou no ícone **Página Inicial** no menu de navegação à esquerda. 
-
-    > **Observação:** atalho de teclado: Alt+Shift+Home. O Dynamics 365 Finance and Operations dá suporte a muitos atalhos de teclado para acelerar o acesso ao sistema: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
-
-1.  Tente selecionar um **bloco do workspace** e, em seguida, examine as informações de ajuda para esse workspace. Quando tiver concluído, retorne ao painel Padrão. 
+27. Tente selecionar um tile do workspace e, em seguida, revise as informações de ajuda para aquele workspace. Ao final, volte à **página inicial**.
 
