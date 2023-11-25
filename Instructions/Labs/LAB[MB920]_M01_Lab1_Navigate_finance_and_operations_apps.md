@@ -47,7 +47,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     - Um calendário e itens de trabalho atribuídos a você.
 
-    -  A barra de pesquisa que é muito útil para encontrar o que você precisa de maneira rápida.
+    - A barra de pesquisa que é muito útil para encontrar o que você precisa de maneira rápida.
 
     - No canto superior direito, você vê a empresa com a qual você está trabalhando, notificações, configurações e links de ajuda. Verifique se a empresa listada é **USMF**.
 
@@ -89,7 +89,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 18. Você pode precisar esperar a primeira vez que você pesquisar um página. Há um pequeno círculo giratório à direita da caixa de pesquisa enquanto a pesquisa é processada.
 
-19. A página **Todos os fornecedores** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados.  Há mais recursos usando a faixa de opções acima da lista.
+19. A página **Todos os fornecedores** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados. Há mais recursos usando a faixa de opções acima da lista.
 
     ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/lab-navigate-finance-and-operations-apps-06.png)
 
@@ -101,7 +101,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     ![Captura de tela da coluna do grupo do fornecedor para Suprimentos do escritório Acme.](./media/lab-navigate-finance-and-operations-apps-07.png)
 
-23.  Muitos menus têm a função classificar e filtrar habilitadas.  Use os filtros para localizar o conteúdo do campo que você está buscando.
+23. Muitos menus têm a função classificar e filtrar habilitadas. Use os filtros para localizar o conteúdo do campo que você está buscando.
 
 24. No canto superior direito, observe a funcionalidade adicional. Leve seu mouse até cada item e revise o aviso do recurso. Ao final, clique no ícone **Fechar** para fechar a página e voltar à **página inicial**.
 

@@ -22,7 +22,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 2.  No painel de navegação, selecione **Varejo e Comércio** > **Catálogos e sortimentos** > **Sortimentos**.
 
-3.  Aguarde até que a página seja carregada.
+3.  Aguarde o carregamento da página.
 
 4.  Na página **Sortimentos**, selecione **+ Novo**.
 
@@ -34,7 +34,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 8.  Defina a **Data de validade** como **Nunca**.
 
-    A data de validade pode ser usada para desativar automaticamente um sortimento publicado.
+    A data de vencimento pode ser usada para desativar automaticamente um sortimento publicado.
 
 9.  Expanda **Canais de comércio**.
 
@@ -48,7 +48,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 13. Adicione o nó pai **Mall** e, em seguida, selecione **OK**.
 
-14. Verifique se os dois nós foram adicionados aos canais de Comércio.
+14. Verifique se os dois nós foram adicionados aos canais de comércio.
 
 15. Expanda **Produtos**.
 
@@ -58,7 +58,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
     Isso adiciona todos os itens filho da categoria pai.
 
-18. Revise a última coluna chamada **Tipo de linha**. Por padrão, todos os itens serão incluídos.
+18. Revise a última coluna chamada **Tipo de linha**. Por padrão, todos os itens são incluídos.
 
 19. Selecione **+ Adicionar linha**, selecione o menu **Categoria**, expanda **Esportes em equipe**, selecione **Basebol** e, em seguida, **selecione OK**.
 
@@ -66,7 +66,7 @@ Você precisa criar uma variedade de produtos relacionados atribuídos a um cana
 
 21. Usando a linha da categoria **Basebol**, clique no menu **Produtos**.
 
-22. Quando os produtos dentro de uma categoria são definidos, você pode selecionar um produto específico para incluir ou excluir. Selecione **AdultBaseballInfield**.
+22. Quando os produtos de uma categoria são definidos, você pode selecionar um produto específico para incluir ou excluir. Selecione **AdultBaseballInfield**.
 
 23. Para remover um produto adicionado, exclua o conteúdo da caixa do produto e pressione a tecla **Tab** no teclado ou selecione outra área da página.
 

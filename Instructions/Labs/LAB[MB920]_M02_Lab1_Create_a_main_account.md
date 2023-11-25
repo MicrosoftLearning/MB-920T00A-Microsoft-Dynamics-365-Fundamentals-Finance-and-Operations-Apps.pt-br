@@ -18,18 +18,25 @@ lab:
 1.  Na página inicial **Finanças e Operações**, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**.
 
 2.  Se necessário, selecione a empresa e, no menu, selecione **USMF**.
+3.  No painel de navegação esquerdo, selecione **Módulos > Contabilidade > Calendários > Calendários fiscais**.
+4.  Selecione um calendário **fiscal**
+5.  Se o ano civil atual já estiver criado, saia da página **Calendários fiscais**.
+6. Se o ano civil atual não estiver criado, selecione o botão **Novo ano** no painel de ações e insira o ano atual, como aparece na captura de tela a seguir. Selecione o **botão Criar** para criar o ano civil atual.
 
-3.  No painel de navegação esquerdo, clique em **Módulos** > **Contabilidade** > **Plano de contas** > **Contas** > **Contas principais**.
+![A captura de tela mostra como criar o novo ano no calendário fiscal](./media/lab-create-a-main-account-04.png)
 
-4.  No painel de ações, selecione **+ Novo**.
 
-5.  Insira os seguintes valores na página **Conta principal**:
+4.  No painel de navegação esquerdo, clique em **Módulos** > **Contabilidade** > **Plano de contas** > **Contas** > **Contas principais**.
+
+5.  No painel de ações, selecione **+ Novo**.
+
+6.  Insira os seguintes valores na página **Conta principal**:
 
     - Conta principal: **601510**
 
     - Nome: **Despesa com chamadas internacionais**
 
-    - Tipo de despesa principal: **Despesa**
+    - Tipo de conta principal: **Despesa**
 
     - Categoria da conta principal: **TANDEEXP**
 
@@ -37,15 +44,15 @@ lab:
 
     ![A captura de tela mostra contas principais – gráfico de contas: página compartilhada em que diferentes valores precisam ser adicionados.](./media/lab-create-a-main-account-01.png)
 
-6.  Navegue até **Módulos &gt; Razão geral &gt; Entradas do diário &gt; Diários gerais.**
+7.  Navegue até **Módulos &gt; Razão geral &gt; Entradas do diário &gt; Diários gerais.**
 
-7.  No painel de ações, selecione **+ Novo**.
+8.  No painel de ações, selecione **+ Novo**.
 
-8.  Insira o seguinte valor na página **Diários gerais** e selecione **Linhas** no painel de ação:
+9.  Insira o seguinte valor na página **Diários gerais** e selecione **Linhas** no painel de ação:
 
     - Nome: GenJrn
 
-9.  Insira os seguintes valores na página **Comprovante de diário**:
+10.  Insira os seguintes valores na página **Comprovante de diário**:
 
     - Tipo de conta: **Razão**
 
@@ -57,8 +64,8 @@ lab:
 
     - Número da conta de deslocamento: **110180** 
 
-10. Pressione o botão **Salvar** no painel de ação.
+11. Pressione o botão **Salvar** no painel de ação.
 
-11. Selecione **Validar &gt; Simular postagem**. 
+12. Selecione **Validar &gt; Simular postagem**. 
 
-12. Pressione o botão **Postar** no painel de ações. O diário deve ser postado.
+13. Pressione o botão **Postar** no painel de ações. O diário deve ser postado.

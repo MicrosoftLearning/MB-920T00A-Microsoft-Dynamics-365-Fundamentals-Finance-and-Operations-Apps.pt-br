@@ -10,7 +10,7 @@ lab:
 
 ## Objetivo
 
-Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova configuração de um gabinete de um fornecedor.  Você precisa criar um item para representar a nova configuração.  Neste laboratório, você aprenderá a criar um item e configurações do item.
+Na USMF (Contoso Entertainment System EUA), você planeja comprar uma nova configuração de gabinete de um fornecedor. Você precisa criar um item para representar a nova configuração. Neste laboratório, você aprenderá a criar um item e configurações do item.
 
 ## Configuração do Laboratório
 
@@ -18,7 +18,7 @@ Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova confi
 
 ## Instruções
 
-Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova configuração de um gabinete de um fornecedor.  Você precisa criar um item para representar a nova configuração. 
+Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova configuração de um gabinete de um fornecedor. Você precisa criar um item para representar a nova configuração.
 
 1.  Na página inicial Finanças e Operações, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. Se necessário, no menu suspenso da empresa, selecione **USMF**.
 
@@ -42,7 +42,7 @@ Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova confi
 
 10. No menu **Produto** no Painel de Ação, selecione **Grupos de dimensões** no grupo **Configurar**.
 
-    ![A captura de tela mostra a opção configurar no menu do produto em que os diferentes detalhes do grupo de dimensões podem ser adicionados.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+    ![A captura de tela descreve a opção de configuração no menu do produto, em que os diferentes detalhes do grupo de dimensões podem ser adicionados.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
 11. Clique no menu suspenso **Grupo de dimensões de armazenamento** e selecione **SiteWH**.
 
@@ -54,7 +54,7 @@ Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova confi
 
 15. Uma página é aberta exibindo a primeira etapa como **Selecionar produtos a serem lançados.**
 
-    ![A captura de tela mostra a exibição padrão da página lançar produtos.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+    ![A captura de tela mostra a exibição padrão da página de produtos de lançamento.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
 16. Selecione o botão **Avançar** na parte inferior da página
 
@@ -66,9 +66,9 @@ Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova confi
 
 20. Clique no botão **Concluir** na parte inferior da página.
 
-21. No painel de navegação, selecione Módulos e, em seguida, Gerenciamento de informações do produto. Depois, no menu Produtos, selecione **Lançados**.
+21. No painel de navegação, selecione Módulos e, depois, Gerenciamento de informações do produto. Depois, no menu Produtos, selecione **Lançados**.
 
-22. Na página **Lançamentos** **produtos**, localize o novo item **GTL007** na grade. 
+22. Na página **Produtos** **lançados**, localize o novo item **GTL007** na grade. 
 
 23. Selecione o link do produto e navegue até a página **Detalhes do produto**.
 
