@@ -103,7 +103,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 23. Muitos menus têm a função classificar e filtrar habilitadas. Use os filtros para localizar o conteúdo do campo que você está buscando.
 
-24. No canto superior direito, observe as funções adicionais. Passe o mouse sobre cada item e examine o texto explicativo do recurso. Quando terminar, selecione o ícone de **Voltar** na outra extremidade da barra de ferramentas para fechar a página e retornar à página anterior.
+24. No canto superior direito, observe a funcionalidade adicional. Leve seu mouse até cada item e revise o aviso do recurso. Ao final, clique no ícone **Fechar** para fechar a página e voltar à **página inicial**.
 
     ![Captura de tela do menu de lista da página do canto superior direito mostrando recursos adicionais para conectar aos botões Power Apps, Aplicativos do Office, Anexo de documento, Atualizar página, Abrir em nova janela e Fechar.](./media/lab-navigate-finance-and-operations-apps-08.png)
 
