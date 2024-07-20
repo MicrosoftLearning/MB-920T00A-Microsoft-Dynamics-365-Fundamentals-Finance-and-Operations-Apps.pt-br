@@ -62,7 +62,7 @@ O cabeçalho da ordem foi criado. Quando você trabalha com linhas da ordem de c
 
 12. Em **Exibir**, selecione **Dimensões**.
 
-    Os produtos podem estar em variantes diferenciadas por dimensões, como cor, tamanho ou estilo. Os produtos também podem ser configurados para usar dimensões de armazenamento, como local e depósito. Há também dimensões de rastreamento opcionais, como números de série e de lote. Para aprimorar a eficiência da entrada de ordem, você pode adicionar os campos de dimensão que costuma usar diretamente à grade da ordem.
+    Os produtos podem estar em variantes diferenciadas por dimensões, como cor, tamanho ou estilo. Os produtos também podem ser configurados para usar dimensões de armazenamento, como local e depósito. Também existem dimensões de rastreamento opcionais, como os números de lote e de série. Para aprimorar a eficiência da entrada de ordem, você pode adicionar os campos de dimensão que costuma usar diretamente à grade da ordem.
 
 13. No painel **Exibição de dimensões**, em **DIMENSÕES DO PRODUTO**, marque a caixa de seleção **Cor**.
 
