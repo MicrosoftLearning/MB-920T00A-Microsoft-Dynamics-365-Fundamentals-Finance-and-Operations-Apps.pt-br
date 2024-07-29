@@ -1,12 +1,12 @@
 ---
 lab:
-  title: 'Laboratório 2: Integração do Excel'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: 'Laboratório 1.2: Integração do Excel'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
+# Roteiro de aprendizagem 1: explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
+# Módulo 3: Descrever as funcionalidades de geração de relatórios e integração nos aplicativos de finanças e operações
 
-# Módulo 1: Explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
-
-## Laboratório 2: Integração do Excel
+## Laboratório 1.2: Integração do Excel
 
 ## Objetivo
 
