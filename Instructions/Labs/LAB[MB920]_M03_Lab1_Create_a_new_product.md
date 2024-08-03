@@ -1,115 +1,144 @@
 ---
 lab:
-  title: 'Laboratório 1: Criar um produto'
-  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+  title: 'Laboratório 3.1: Criar um produto'
+  module: 'Learning Path 3: Learn the fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Módulo 3: Conheça os Princípios básicos do Microsoft Dynamics 365 Supply Chain Management
+# Roteiro de aprendizagem 3: aprender os conceitos básicos do Microsoft Dynamics 365 Supply Chain Management
+# Módulo 2: Descrever os processos de vendas e compras
 
-## Laboratório 1: Criar um produto
+## Laboratório 3.1: Criar um produto
 
-## Objetivo
+Em sua organização, você planeja criar um novo item, que é uma camisa. A camisa terá cores e tamanhos diferentes. Neste laboratório, você aprenderá a criar um novo item com várias variantes e liberá-lo na entidade legal USMF.
 
-Na USMF (Contoso Entertainment System EUA), você planeja comprar uma nova configuração de gabinete de um fornecedor. Você precisa criar um item para representar a nova configuração. Neste laboratório, você aprenderá a criar um item e configurações do item.
+## Etapas do laboratório
 
-## Configuração do Laboratório
+1. No painel de navegação do Dynamics 365 Supply Chain Management, selecione **Módulos** e, em seguida, selecione **Gerenciamento de informações de produtos** > **Configuração** > **Grupos de variante e dimensão**. Abra a página **Grupos de cores** e crie um novo registro.
 
-   - **Tempo estimado**: 10 minutos
+    - Grupo de cores: **ShirtColor**
 
-## Instruções
+    - Descrição: **Cor da camisa**
 
-Na USMF (Contoso Entertainment System USA), você planeja comprar uma nova configuração de um gabinete de um fornecedor. Você precisa criar um item para representar a nova configuração.
+2. Na FastTab **Linhas do grupo de cores**, insira os três registros a seguir:
 
-1.  Na página inicial Finanças e Operações, na parte superior direita, verifique se você está trabalhando com a empresa **USMF**. Se necessário, no menu suspenso da empresa, selecione **USMF**.
+| **Cor**| **Nome da cor** |
+| - |
+| Azul| Azul |
+| Branca| Branco |
+| Preto| Preto |
 
-2.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**.
+3. Salve os registros.
 
-3.  No painel de navegação, selecione **Módulos** e, em seguida, **Gerenciamento de informações do produto**. Depois, no menu **Produtos**, selecione **Produtos**.
+4. Selecione **Gerenciamento de informações do produto** > **Configuração** > **Grupos de variante e dimensão**. Abra a página **Grupos de tamanhos** e crie um novo registro.
 
-4.  Na página **Produtos**, no menu superior, selecione **+ Novo**.
+    - Grupo de tamanhos: **ShirtSize**
 
-5.  Na página **Novo produto**, no campo **Tipo de produto**, verifique se **Item** está selecionado.
+    - Descrição: **Tamanho da camisa**
 
-6.  No campo **Subtipo do produto**, verifique se **Produto** está selecionado.
+5. Na FastTab **Linhas do grupo de tamanhos**, insira os três registros a seguir
 
-7.  Em **IDENTIFICAÇÃO**, na caixa **Número do produto**, digite **GTL007**.
+| **Tamanho**| **Nome do tamanho** |
+| - |
+| S| Pequeno |
+| M| Médio |
+| L| grande |
 
-8.  Na caixa **Nome do produto**, digite **Gabinete 2**.
+6. Salve os registros
 
-    ![A captura de tela mostra a exibição padrão da nova página de criação de produto.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
+7. No painel de navegação do Dynamics 365 Supply Chain Management, selecione **Módulos** e, em seguida, selecione **Gerenciamento de informações do produto**. Depois, no menu **Produtos**, selecione **Produtos mestres**.
 
-9.  Selecione o botão **OK**.
+8. Na página **Produtos mestres**, no menu superior, selecione **+ Novo**.
 
-10. No menu **Produto** no Painel de Ação, selecione **Grupos de dimensões** no grupo **Configurar**.
+9. Na página **Novo produto**, no campo **Tipo de produto**, verifique se **Item** está selecionado.
 
-    ![A captura de tela descreve a opção de configuração no menu do produto, em que os diferentes detalhes do grupo de dimensões podem ser adicionados.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+10. No campo **Subtipo do produto**, verifique se **Produto****mestre** está selecionado.
 
-11. Clique no menu suspenso **Grupo de dimensões de armazenamento** e selecione **SiteWH**.
+11. Na guia **Identificação**, na caixa **Número do produto**, insira **SH001**.
 
-12. Selecione o menu suspenso **Grupo de dimensões de rastreamento** e selecione **Nenhum**.
+12. No campo **Nome do produto**, insira **Camisa**.
 
-13. Selecione o botão **OK**.
+13. No campo **Grupo de dimensões do produto**, selecione **ColorSize**.
 
-14. Selecione o botão **Lançar produtos** no Painel de Ação para lançar o produto em uma entidade legal.
+14. Selecione o botão **OK**.
 
-15. Uma página é aberta exibindo a primeira etapa como **Selecionar produtos a serem lançados.**
+15. No menu **Produto** no painel de ações, selecione **Grupos de dimensões** no grupo **Configurar**.
 
-    ![A captura de tela mostra a exibição padrão da página de produtos de lançamento.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+16. Clique na lista suspensa **Grupo de dimensões de armazenamento** e selecione **SiteWH**.
 
-16. Selecione o botão **Avançar** na parte inferior da página
+17. Na lista suspensa **Grupo de dimensões de rastreamento**, selecione **Nenhum**.
 
-17. Na página **Selecionar empresas para as quais lançar**, selecione a entidade jurídica **USMF** em que o produto deve ser lançado.
+18. Selecione o botão **OK**.
 
-18. Selecione o botão **Avançar** na parte inferior da página.
+19. Selecione **ShirtColor** na lista de **grupos de cores**.
 
-19. Na página **Confirmar seleção**, defina o valor de **Mostrar Infolog após falha** como **Sim** e **Executar como lote** como **Não**.
+20. Selecione **ShirtSize** na lista de **Grupos de tamanhos**.
 
-20. Clique no botão **Concluir** na parte inferior da página.
+21. No painel de ações, selecione o botão **Grades de produtos**.
 
-21. No painel de navegação, selecione Módulos e, depois, Gerenciamento de informações do produto. Depois, no menu Produtos, selecione **Lançados**.
+22. Na página **Grades de produtos**, selecione o botão **Sugestões de grade** no painel de ações.
 
-22. Na página **Produtos** **lançados**, localize o novo item **GTL007** na grade. 
+23. Selecione o botão **Sugerir tudo** na página **Sugestões de grade**.
 
-23. Selecione o link do produto e navegue até a página **Detalhes do produto**.
+24. Selecione as variantes sugeridas selecionando o botão **Selecionar tudo** seguido pelo botão **Criar**.
 
-24. Na FastTab **Geral**, insira o seguinte:
+As variantes serão criadas na página Variantes do produto.
 
-    - **Grupo de modelos de item**: PEPS
+25. Selecione o botão **Lançar produtos** no painel de ações para lançar o produto em uma entidade legal.
 
-25. Na FastTab **Comprar**, insira o seguinte:
+26. Uma página é aberta exibindo a primeira etapa como **Selecionar produtos a serem lançados.**
 
-    - **Unidade**: ea
+27. Selecione o botão **Avançar** na parte inferior da página.
 
-    - **Grupo de impostos sobre vendas**: TODOS
+28. Selecione as variantes que você deseja liberar na entidade legal e selecione o botão **Avançar**.
 
-    - **Preço**: 30
+29. Na página **Selecionar empresas para o lançamento**, selecione a entidade jurídica **USMF** em que o produto deve ser lançado.
 
-26. Na FastTab **Vender**, insira o seguinte:
+30. Selecione o botão **Avançar** na parte inferior da página.
 
-    - **Unidade**: ea
+31. Na página **Confirmar seleção**, defina o valor de **Mostrar log de informações após a falha** como **Sim** e **Executar como lote** como **Não**.
 
-    - **Grupo de impostos sobre vendas**: TODOS
+32. Clique no botão **Concluir** na parte inferior da página.
 
-    - **Preço**: 35
+16. No painel de navegação, selecione **Módulos** e, depois, **Gerenciamento de informações do produto**. No menu **Produtos**, selecione **Produtos liberados**.
 
-27. No FastTab **Gerenciar inventário**, insira o seguinte:
+33. Na página **Lançar produtos**, localize o novo item **SH001** na grade.
 
-    - **Unidade**: ea
+34. Selecione o link do produto e navegue até a página **Detalhes do produto**.
 
-28. Na FastTab **Engenheiro**, insira o seguinte:
+35. Na FastTab **Geral**, insira o seguinte:
 
-    - **Unidade BOM**: ea
+    - Grupo de modelos de item: **PEPS**
 
-29. Na FastTab **Gerenciar custos**, insira o seguinte:
+36. Na FastTab **Comprar**, insira o seguinte:
 
-    - **Grupo de itens**: áudio
+    - Unidade: **ea**
 
-30. Para concluir a configuração, selecione Produto no Painel de Ações. Selecione o botão Validar no grupo Manter
+    - Grupo de impostos do item: **TODOS**
 
-    ![A captura de tela mostra o grupo Manter no botão Produto no painel de ações. O botão Validar no grupo Manter está selecionado.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+    - Preço: **30**
 
-31. Verifique se você recebeu o anúncio em faixa com as informações que confirmam que todos os valores de campo exigidos foram validados.
+37. Na FastTab **Vender**, insira o seguinte:
 
-    ![A captura de tela representa o anúncio em faixa com as informações que confirmam que todos os valores de campo exigidos foram validados. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+    - Unidade: **ea**
 
-32. Feche todas as páginas e volte para a Home page.
+    - Grupo de impostos do item: **TODOS**
+
+    - Preço: **35**
+
+38. No FastTab **Gerenciar inventário**, insira o seguinte:
+
+    - Unidade: **ea**
+
+39. Na FastTab **Engenheiro**, insira o seguinte:
+
+    - Unidade BOM: **ea**
+
+40. Na FastTab **Gerenciar custos**, insira o seguinte:
+
+    - Grupo de itens: **áudio**
+
+41. Para concluir a configuração, selecione **Produto** no Painel de Ações. Selecione o botão **Validar** no grupo **Manter**.
+
+42. Feche todas as páginas e volte para a **Página inicial**.
+
+ 

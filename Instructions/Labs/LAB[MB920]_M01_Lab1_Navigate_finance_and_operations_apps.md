@@ -1,12 +1,13 @@
 ---
 lab:
-  title: 'Laboratório 1: Navegue por aplicativos financeiros e operacionais'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: 'Laboratório 1.1: Navegar pelos aplicativos de finanças e operações'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# Módulo 1: Explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
+# Roteiro de aprendizagem 1: explorar as principais funcionalidades dos aplicativos de finanças e operações do Dynamics 365
+# Módulo 1: Descrever os aplicativos de finanças e operações
 
-## Laboratório 1: Navegue por aplicativos financeiros e operacionais
+## Laboratório 1.1: Navegar pelos aplicativos de finanças e operações
 
 ## Objetivo
 
@@ -51,8 +52,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     - No canto superior direito, você vê a empresa com a qual você está trabalhando, notificações, configurações e links de ajuda. Verifique se a empresa listada é **USMF**.
 
-    ![Captura de tela da página Inicial do Dynamics 365 Finance e Operations com áreas destacadas.](./media/lab-navigate-finance-and-operations-apps-04.png)
-
+    ![Captura de tela da página Inicial do Dynamics 365 Finance e Operations com áreas destacadas.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 2.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**.
 
 3.  O painel de navegação é aonde você encontrará coleções para os seus itens **Favoritos**, **Recente**, **Workspaces** e **Módulos**.
@@ -69,7 +69,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 9.  Na **página inicial**, no canto superior direito, clique no ícone **Configurações** e selecione **Opções de usuário**.
 
-    ![Captura de tela mostrando o ícone de Configurações e lista suspensa de Opções de usuário.](./media/lab-navigate-finance-and-operations-apps-05.png)
+    ![Captura de tela mostrando o ícone de Configurações e lista suspensa de Opções de usuário.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 10. Na página **Opções**, use as guias para definir diferentes configurações a serem aplicadas à conta.
 
@@ -83,29 +83,29 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 15. Na **página Inicial**, na parte superior central, clique na caixa **Pesquisar uma página**.
 
-16. Na caixa de pesquisa, pesquise por **Todos os fornecedores**.
+16. Na caixa de pesquisa, pesquise por **Todos os clientes**.
 
-17. Selecione **Todos os fornecedores** Contas a pagar > Fornecedores
+17. Selecione a página **Contas a receber** > **Clientes** > **Todos os clientes**. 
 
-18. Você pode precisar esperar a primeira vez que você pesquisar um página. Há um pequeno círculo giratório à direita da caixa de pesquisa enquanto a pesquisa é processada.
+18. Você pode precisar esperar a primeira vez que você pesquisar um página. Você verá um pequeno círculo giratório à direita da caixa de pesquisa durante o processo de pesquisa.
 
-19. A página **Todos os fornecedores** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados. Há mais recursos usando a faixa de opções acima da lista.
+19. 19. A **página Todos os clientes** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados. Mais recursos estão disponíveis na faixa de opções acima da lista.
 
-    ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/lab-navigate-finance-and-operations-apps-06.png)
+    ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 
-20. Destaque um dos fornecedores da lista e, à direita, selecione o menu **Informações relacionadas**, e revise as informações adicionais fornecidas.
+20. Destaque um dos clientes da lista e, à direita, selecione o menu **Informações relacionadas** e revise as informações fornecidas.
 
-21. Na lista de fornecedores, selecione **Suprimentos do escritório Acme**.
+21. 21. Na lista **Clientes**, selecione **Contoso Retail San Diego**.
 
-22. Selecione o menu **Grupo**, e, em seguida, selecione o título da coluna **Grupo do fornecedor**.
+22. Selecione o menu **Grupo**, e, em seguida, selecione o título da coluna **Grupo de clientes**.
 
-    ![Captura de tela da coluna do grupo do fornecedor para Suprimentos do escritório Acme.](./media/lab-navigate-finance-and-operations-apps-07.png)
+    ![Captura de tela do Grupo de clientes da ContosoRetail San Diego.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-16.svg)
 
 23. Muitos menus têm a função classificar e filtrar habilitadas. Use os filtros para localizar o conteúdo do campo que você está buscando.
 
 24. No canto superior direito, observe a funcionalidade adicional. Leve seu mouse até cada item e revise o aviso do recurso. Ao final, clique no ícone **Fechar** para fechar a página e voltar à **página inicial**.
 
-    ![Captura de tela do menu de lista da página do canto superior direito mostrando recursos adicionais para conectar aos botões Power Apps, Aplicativos do Office, Anexo de documento, Atualizar página, Abrir em nova janela e Fechar.](./media/lab-navigate-finance-and-operations-apps-08.png)
+    ![Captura de tela do menu de lista da página do canto superior direito mostrando recursos adicionais para conectar aos botões Power Apps, Aplicativos do Office, Anexo de documento, Atualizar página, Abrir em nova janela e Fechar.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
 25. No canto superior direito, selecione o ícone de interrogação **Ajuda**, e, em seguida, selecione **Ajuda**.
 
