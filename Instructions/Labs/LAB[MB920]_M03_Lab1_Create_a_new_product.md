@@ -21,11 +21,12 @@ Em sua organização, você planeja criar um novo item, que é uma camisa. A cam
 
 2. Na FastTab **Linhas do grupo de cores**, insira os três registros a seguir:
 
-| **Cor**| **Nome da cor** |
-| - |
-| Azul| Azul |
-| Branca| Branco |
-| Preto| Preto |
+    | **Cor** | **Nome da cor** |
+    |-----------|----------------|
+    | Azul      | Azul           |
+    | Branca     | Branco          |
+    | Preto     | Preto          |
+
 
 3. Salve os registros.
 
@@ -37,11 +38,12 @@ Em sua organização, você planeja criar um novo item, que é uma camisa. A cam
 
 5. Na FastTab **Linhas do grupo de tamanhos**, insira os três registros a seguir
 
-| **Tamanho**| **Nome do tamanho** |
-| - |
-| S| Pequeno |
-| M| Médio |
-| L| grande |
+    | **Tamanho** | **Nome do tamanho** |
+    |----------|---------------|
+    | S        | Pequeno         |
+    | M        | Médio        |
+    | L        | grande         |
+
 
 6. Salve os registros
 

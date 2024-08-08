@@ -22,9 +22,9 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 1.  Verifique se você está na entidade legal da **USMF**.
 
-2.  Acesse **Compras e fornecimento** > **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
+2.  Acesse o  módulo **Compras e fornecimento**> **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
 
-3.  Selecione **Abrir no Microsoft Office** > **Abrir no Excel**.
+3.  No canto superior direito, selecione **Abrir no Microsoft Office** > **Abrir no Excel**.
 
 4.  Selecione **Grupos de fornecedores** (usmf) e baixe o modelo do Excel.
 
@@ -32,7 +32,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     Todos os dados existentes da tabela **Grupo de fornecedores** são exibidos na planilha do Excel.
 
-6.  Crie um registro.
+6.  Insira um novo registro na primeira posição do novo grupo de fornecedores.
 
 7.  Insira **100** no campo **Grupo de fornecedores**, **Fornecedor de seguros** no campo **Descrição** e **Net10** no campo **Termos de pagamento**.
 
