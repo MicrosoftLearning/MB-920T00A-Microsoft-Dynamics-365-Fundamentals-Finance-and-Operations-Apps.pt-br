@@ -22,7 +22,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 1.  Verifique se você está na entidade legal da **USMF**.
 
-2.  Acesse o  módulo **Compras e fornecimento**> **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
+2.  Acesse o módulo **Compras e fornecimento**> **Configuração** > **Fornecedores** > **Grupos de fornecedores**.
 
 3.  No canto superior direito, selecione **Abrir no Microsoft Office** > **Abrir no Excel**.
 
