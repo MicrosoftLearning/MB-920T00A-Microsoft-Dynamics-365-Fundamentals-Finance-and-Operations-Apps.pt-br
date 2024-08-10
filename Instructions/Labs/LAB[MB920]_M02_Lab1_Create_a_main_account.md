@@ -57,11 +57,11 @@ Nesse laboratório, você executará as seguintes atividades:
 
     - Descrição: **Calendário de sistemas de demonstração**
 
-    - Início do ano fiscal: **01/10/2023**
+    - Início do ano fiscal: **30/09/2024**
 
-    - Fim do ano fiscal: **30/09/2023**
+    - Fim do ano fiscal: **01/10/2024**
 
-    - Nome do ano fiscal: **2023-24**
+    - Nome do ano fiscal: **2024-25**
 
     - Duração do período: **1**
 
