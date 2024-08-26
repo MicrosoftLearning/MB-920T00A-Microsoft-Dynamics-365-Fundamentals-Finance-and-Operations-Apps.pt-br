@@ -42,7 +42,7 @@ Em sua organização, você planeja criar um novo item, que é uma camisa. A cam
     |----------|---------------|
     | S        | Pequeno         |
     | M        | Médio        |
-    | L        | grande         |
+    | L        | Grande         |
 
 
 6. Salve os registros
