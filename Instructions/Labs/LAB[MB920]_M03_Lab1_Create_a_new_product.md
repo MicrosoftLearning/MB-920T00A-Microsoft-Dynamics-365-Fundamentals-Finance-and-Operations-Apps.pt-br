@@ -101,11 +101,13 @@ As variantes serão criadas na página Variantes do produto.
 
 32. Clique no botão **Concluir** na parte inferior da página.
 
-16. No painel de navegação, selecione **Módulos** e, depois, **Gerenciamento de informações do produto**. No menu **Produtos**, selecione **Produtos liberados**.
+33. No canto superior direito, alterne para **USMF** como a entidade legal.
+
+34. No painel de navegação, selecione **Módulos** e, depois, **Gerenciamento de informações do produto**. No menu **Produtos**, selecione **Produtos liberados**.
 
 33. Na página **Lançar produtos**, localize o novo item **SH001** na grade.
 
-34. Selecione o link do produto e navegue até a página **Detalhes do produto**.
+34. Clique no link do produto e navegue até a página **Detalhes do produto lançado**.
 
 35. Na FastTab **Geral**, insira o seguinte:
 
@@ -137,7 +139,7 @@ As variantes serão criadas na página Variantes do produto.
 
 40. Na FastTab **Gerenciar custos**, insira o seguinte:
 
-    - Grupo de itens: **áudio**
+    - Grupo de itens: **Áudio**
 
 41. Para concluir a configuração, selecione **Produto** no Painel de Ações. Selecione o botão **Validar** no grupo **Manter**.
 

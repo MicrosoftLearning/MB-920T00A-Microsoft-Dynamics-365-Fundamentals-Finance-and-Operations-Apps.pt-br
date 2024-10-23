@@ -27,10 +27,15 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     - Senha: `pass@word1`
 
+1.  Este laboratório foi configurado para provisionar automaticamente sua conta de usuário administrador. Depois de concluído, o Edge será aberto automaticamente e solicitará que você se conecte, o que pode ser feito com as credenciais fornecidas encontradas na guia Recursos. Se esse processo falhar, veja a observação abaixo. Caso contrário, você pode avançar no laboratório. 
+
+    >Na área de trabalho, clique duas vezes em AdminUserProvisioning.
+No campo Endereço de email, insira o nome de usuário em **Recursos** e clique em Enviar.
+Aguarde o prompt para avisar o usuário administrador atualizado para... e clique em OK.   
+
 1.  O **Microsoft Edge** abrirá a URL do Finance and Operations:<https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1.  Entre usando o nome de usuário e a senha fornecidos no menu **Recursos**. 
-
 
 ### Navegue por aplicativos financeiros e operacionais
 
@@ -50,7 +55,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     - No canto superior direito, você vê a empresa com a qual você está trabalhando, notificações, configurações e links de ajuda. Verifique se a empresa listada é **USMF**.
 
-    ![Captura de tela da página Inicial do Dynamics 365 Finance e Operations com áreas destacadas.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
+    ![Captura de tela da página Inicial do Dynamics 365 Finance e Operations com áreas destacadas.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 2.  No canto superior esquerdo, selecione o menu hambúrguer **Expandir o painel de navegação**.
 
 3.  O painel de navegação é aonde você encontrará coleções para os seus itens **Favoritos**, **Recente**, **Workspaces** e **Módulos**.
@@ -67,7 +72,7 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 9.  Na **página inicial**, no canto superior direito, clique no ícone **Configurações** e selecione **Opções de usuário**.
 
-    ![Captura de tela mostrando o ícone de Configurações e lista suspensa de Opções de usuário.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
+    ![Captura de tela mostrando o ícone de Configurações e lista suspensa de Opções de usuário.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 
 10. Na página **Opções**, use as guias para definir diferentes configurações a serem aplicadas à conta.
 
@@ -87,13 +92,15 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
 18. Você pode precisar esperar a primeira vez que você pesquisar um página. Você verá um pequeno círculo giratório à direita da caixa de pesquisa durante o processo de pesquisa.
 
-19. 19. A **página Todos os clientes** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados. Mais recursos estão disponíveis na faixa de opções acima da lista.
+19. A **página Todos os clientes** é um exemplo de página de lista. A página de lista contém dados mestres que podem ser lidos, criados, excluídos e atualizados. Mais recursos estão disponíveis na faixa de opções acima da lista.
 
-    ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
+    ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 20. Destaque um dos clientes da lista e, à direita, selecione o menu **Informações relacionadas** e revise as informações fornecidas.
 
-21. 21. Na lista **Clientes**, selecione **Contoso Retail San Diego**.
+    ![Captura de tela da lista Todos os fornecedores com os recursos do menu destacados.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-19.png)
+
+21. Na lista **Clientes**, clique em **Contoso Retail San Diego**.
 
 22. Selecione o menu **Grupo**, e, em seguida, selecione o título da coluna **Grupo de clientes**.
 
@@ -105,9 +112,5 @@ Agora que você está familiarizado com os aplicativos de finanças e operaçõe
 
     ![Captura de tela do menu de lista da página do canto superior direito mostrando recursos adicionais para conectar aos botões Power Apps, Aplicativos do Office, Anexo de documento, Atualizar página, Abrir em nova janela e Fechar.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
-25. No canto superior direito, selecione o ícone de interrogação **Ajuda**, e, em seguida, selecione **Ajuda**.
 
-26. Observe que as informações de ajuda estão relacionadas à página atual.
-
-27. Tente selecionar um tile do workspace e, em seguida, revise as informações de ajuda para aquele workspace. Ao final, volte à **página inicial**.
 

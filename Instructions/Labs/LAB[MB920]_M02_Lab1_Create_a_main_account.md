@@ -59,7 +59,7 @@ Nesse laboratório, você executará as seguintes atividades:
 
     - Início do ano fiscal: **30/09/2024**
 
-    - Fim do ano fiscal: **01/10/2024**
+    - Fim do ano fiscal: **01/10/2025**
 
     - Nome do ano fiscal: **2024-25**
 
@@ -87,7 +87,7 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
 
     - Nome: **Pagamento à vista**
 
-    - Tipo de despesa principal: **Balanço patrimonial**
+    - Tipo de conta principal: **Balanço**
 
     - Categoria de conta principal: **CASH**
 
@@ -99,7 +99,7 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
 
     - Nome: **Receita**
 
-    - Tipo de despesa principal: **Receita**
+    - Tipo de conta principal: **Receia**
 
     - Categoria da conta principal: **REV**
 
@@ -111,7 +111,7 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
 
     - Nome: **Despesa de viagens**
 
-    - Tipo de despesa principal: **Despesa**
+    - Tipo de conta principal: **Despesa**
 
     - Categoria da conta principal: **EXP**
 
@@ -125,7 +125,7 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
 
     - Nome: **CDS_Training**
 
-3. No painel de ações, selecione o botão Novo seguido do tipo de unidade operacional Centro de custo e insira o seguinte valor:
+3. No painel de ações, clique no botão **Novo** seguido do tipo de unidade **operacional Centro de custo** e insira o seguinte valor:
 
     - Nome: **CDS_Purchase**
 
@@ -179,7 +179,7 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
 
 14. Na FastTab **Segmentos e valores permitidos**, selecione o botão **Adicionar** para adicionar o **Intervalo da conta principal 6000..9999**.
 
-15. Selecione o botão **Segmento** na FastTab **Segmentos e valores permitidos**
+15. Clique no botão **Adicionar segmento** na FastTab **Segmentos e valores permitidos**
 
 16. Na caixa de diálogo **Adicionar segmento**, selecione **CostCenter** seguido pelo botão **Adicionar segmento**.
 
@@ -193,7 +193,7 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
 
 2. Se necessário, selecione a empresa e, no menu, selecione **CDS**.
 
-3. No painel de navegação esquerdo do Dynamics 365 Finance, selecione a página **Módulos** > **Contabilidade &gt; Configuração &gt; Razão** e configure o seguinte:
+3. No painel de navegação esquerdo do Dynamics 365 Finance, selecione a página **Módulos** > **Contabilidade &gt; Configuração da razão &gt; Razão** e configure o seguinte:
 
     - Plano de contas: **Sistemas de demonstração**
 
@@ -208,6 +208,8 @@ O sistema gerará 14 períodos, incluindo um período de abertura e um período 
     - Tipo de taxa de câmbio de orçamento: **Orçamento**
 
 4. Na FastTab **Estrutura de conta**, selecione o botão **Adicionar** para adicionar a estrutura da conta **CDS_BS**.
+
+> Se necessário, clique em **Sim** para Adicionar uma estrutura de conta.
 
 5. Adicione mais duas estruturas de conta: **CDS_Revenue** e **CDS_Expense**.
 
