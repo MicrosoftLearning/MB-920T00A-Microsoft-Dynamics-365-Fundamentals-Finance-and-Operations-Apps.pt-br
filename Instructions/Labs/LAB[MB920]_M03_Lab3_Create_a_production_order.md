@@ -89,6 +89,8 @@ Um novo diário de lista de separação é criado com três linhas.
 
 21. Publique o diário da lista de separação.
 
+Se necessário, clique em **OK** na janela Diário de lançamentos.
+
 22. Navegue de volta para a página **Todas as ordens de produção** e selecione **Exibir (menu do painel de ações) &gt; Diários &gt; Cartão de roteiro**.
 
 Um novo diário de cartão de roteiro é criado com três linhas.
